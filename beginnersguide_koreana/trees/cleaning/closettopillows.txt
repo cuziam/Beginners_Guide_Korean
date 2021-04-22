@@ -50,13 +50,13 @@ cleaner03
 	[color 00e53b] 
 이런 일에 대해서 넌 참 성급하게 판단을 내리는구나.
 	[wait 2 sec]
-네 아파트는 안 어지러울 수도 있어. 하지만 네 인생에서도 어떤건 정리가 되어야 해.
+네 아파트는 안 어지러울 수도 있지. 하지만 네 인생에서도 무언가는  정리가 되어야 해.
 	[wait 3 sec]
-정리가 필요한게 아무것도 없다고 생각하겠지. 하지만 조심해. 왜냐하면 그게 전부거든.
+넌 정리가 필요한게 아무것도 없다고 생각하겠지. 하지만 조심해. 왜냐하면 그 말은 넌 모든걸 정리해야 한다는 의미거든.
 	[wait 3 sec]
-적어도, 내 공간은 여기에 찾아온 작은 평화로움을 눈으로 확인하기 위한 공간이라고.(이 라인은 Git 기능을 테스트하기 위한 라인입니다.)
+적어도, 내 공간은 평화를 눈으로 확인하기 위한 공간이라고.
 	[wait 4 sec]
-Speaking of which, the pillows on this couch are a wreck, would you come out and straighten them up?
+말이 나와서 그런데, 이 소파 위에 있는 배개들 말이야. 나와서 이 배개들 좀 정리하줄래?
 	[wait 2 sec]
 [fire pillows_continue1 enable]
 	[wait 0.1 sec]

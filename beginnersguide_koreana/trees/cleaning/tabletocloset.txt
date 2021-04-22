@@ -3,19 +3,19 @@
 Go
 {
 	[color ffffff] 
-Opt1: Housecleaning is so difficult! How do you do it? [wait 2 sec] [play response1]
-Opt2: Are all houses this easy to clean? [wait 2 sec] [play response2]
-Opt3: Do these chores ever end? [wait 2 sec] [play response3]
+Opt1: 집안일은 정말 어려워! 어떻게 하는거야? [wait 2 sec] [play response1]
+Opt2: 이런 집들 모두 청소하기가 쉬운편이야? [wait 2 sec] [play response2]
+Opt3: 이런 자질구레한 일이 절대 끝나지 않는꺼야? [wait 2 sec] [play response3]
 }
 
 response1
 {
 	[color 00e53b] 
-Darling, let me tell you something.
+얘, 하나 말해줄께.
 	[wait 2 sec]
-Your house is only as difficult to clean as YOU are.
+집이란 건 너 자신만큼이나 깨끗이 하기가 힘들어.
 	[wait 2 sec]
-If you're finding the work hard, maybe you have a bit of housekeeping to do before you come to work.
+네가 이 일이 어렵다는 사실을 발견하게되면, 아마도 일을 하러오기전에 해야할 집안일을 좀 갖게되겠자.
 	[wait 4 sec]
 Ha! And here I go with another lecture. Of course I would.
 	[wait 3 sec]

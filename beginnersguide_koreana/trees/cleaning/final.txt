@@ -5,9 +5,9 @@ Go
 	[color 00e53b]
 ...
 	[wait 2 sec]
-Question:
+질문:
 	[wait 3 sec]
-Do you enjoy this?
+즐거웠니?
 	[wait 0.5 sec]
 [fire cutoff trigger]
 }

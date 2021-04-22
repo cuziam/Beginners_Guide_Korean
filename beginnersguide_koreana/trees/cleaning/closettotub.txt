@@ -6,9 +6,9 @@ Go
 	[fire tub_continue2 enable]
 	[wait 0.1 sec]
 	[fire tub_reset trigger]
-	Looks like the tub has gotten rather dirty.
+	욕조가 좀 더러운 것 같은데.
 		[wait 1 sec]
-	Would you mind tidying it up a bit?
+	조금만 정리해줄래?
 }
 
 

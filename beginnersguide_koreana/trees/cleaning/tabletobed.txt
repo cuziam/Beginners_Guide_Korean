@@ -3,9 +3,9 @@
 Go
 {
 	[color 00e53b] 
-	Much nicer, that's the table I want to see.
+	훨씬 낫다. 저게 내가 보고 싶었던 테이블의 모습이라고. 
 		[wait 2 sec]
-	Now would you please run into the bedroom and make the bed?
+	이제 침실로 가서 이불 좀 정리해줄래?
 		[wait 1 sec]
 	[fire bed_continue1 enable]
 	[wait 0.1 sec]

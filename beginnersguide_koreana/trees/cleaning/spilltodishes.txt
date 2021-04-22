@@ -3,7 +3,7 @@
 Go
 {
 	[color 00e53b] 
-	I feel compelled to share an incredibly cheesy personal insight. You okay with that?
+	정말 낯간지럽지만 개인적인 생각 하나를 공유해야할 것 같은데. 괜찮을까?
 		[wait 2 sec]
 	[play talk1]
 }
@@ -11,9 +11,9 @@ Go
 talk1
 {
 	[color ffffff] 
-Opt1: Make it especially cheesy. [wait 2 sec] [play response1]
-Opt2: Yeah I'll try to get by. [wait 2 sec] [play response1]
-Opt3: Do you absolutely have to? [wait 2 sec] [play response3]
+Opt1: 정말로 낯간지러운 걸로 부탁해. [wait 2 sec] [play response1]
+Opt2: 그래 한번 들어보지 뭐. [wait 2 sec] [play response1]
+Opt3: 정말 그래야 하는거야? [wait 2 sec] [play response3]
 }
 
 response1
@@ -23,13 +23,13 @@ response1
 		[wait 2 sec]
 	...
 		[wait 3 sec]
-	No...
+	아니다...
 		[wait 2 sec]
-	No, it was stupid, sorry.
+	아니야, 멍청했네, 미안.
 		[wait 1 sec]
-	Never mind.	
+	신경쓰지마.	
 		[wait 2 sec]
-	Hey these dishes need to be washed, why don't you come do that.
+	있잖아 여기 접시들을 씻어야할 것 같은데, 와서 좀 해줄래?
 	[fire dishes_continue1 enable]
 	[wait 0.1 sec]	
 	[fire dishes_reset trigger]
@@ -40,15 +40,15 @@ response1
 response3
 {
 	[color 00e53b] 
-	Yes.
+	그래.
 		[wait 2 sec]
 	...
 		[wait 3 sec]
-	No. I don't. It was stupid.
+	아니다. 안할께. 멍청한 짓이었네.
 		[wait 1 sec]
-	Never mind.
+	신경쓰지마.
 		[wait 2 sec]
-	Hey these dishes need to be washed, why don't you come do that.
+	있잖아 여기 접시들을 씻어야할 것 같은데, 와서 좀 해줄래?
 	[fire dishes_continue1 enable]
 	[wait 0.1 sec]
 	[fire dishes_reset trigger]

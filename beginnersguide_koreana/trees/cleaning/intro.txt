@@ -3,11 +3,11 @@
 Go
 {
 	[color 00e53b]
-	Well my goodness! I'm glad as all heck that you showed up!
+	이런 이럴수가! 네가 나타나줘서 미친듯이 기쁜걸!
 		[wait 3 sec]
-	Thought I might be having to clean this entire house all by myself. And right miserable that would have been.
+	이 집 전체를 나 혼자서 청소해야 할지도 모른다고 생각했었거든. 비참해질 수도 있었다고.
 		[wait 4 sec]
-	Everyone knows lonesome hands make lousy homes!
+	한 명의 일손만으로는 엉망진창인 집이 될 수 밖에 없잖아?
 		[wait 3 sec]
 	[play response1]
 }
@@ -15,19 +15,19 @@ Go
 response1
 {
 [color ffffff]
-	Opt1: Don't worry about me, a place this nice I'll be glad to stay here all night. [wait 2 sec] [play cleaner01]
-	Opt2: And lousy homes make... home-loners! [wait 2 sec] [play cleaner02]
-	Opt3: Are we cleaning this whole place? [wait 2 sec] [play cleaner03]
+	Opt1: 걱정하지마, 여기 좋다. 밤 동안에 여기 머무를 수 있으면 좋을 것 같은데. [wait 2 sec] [play cleaner01]
+	Opt2: 그리고 엉망진창인 집은... 외톨이를 만들지! [wait 2 sec] [play cleaner02]
+	Opt3: 우리가 여길 다 청소하는거야? [wait 2 sec] [play cleaner03]
 }
 
 cleaner01
 {
 	[color 00e53b]
-Well now you just might be getting a little ahead of yourself there, no?
+그럼 여기서 조금 더 나아가 생각했을 수도 있겠네. 안그래?
 	[wait 3 sec]
-Why don't we start cleaning and THEN you decide whether you could do it all night.
+청소를 해보지 않을래? 그리고나서 결정해보자고.
 	[wait 2 sec]
-I'll finish up here, in the mean time could you please clear the table?
+난 여기를 마무리할테니까, 그동안에 테이블을 좀 청소해줄래?
 	[wait 1 sec]
 	[fire table_reset trigger]
 }
@@ -36,11 +36,11 @@ I'll finish up here, in the mean time could you please clear the table?
 cleaner02
 {
 	[color 00e53b]
-HA!
+하!
 	[wait 1 sec]
-Something tells me you're gonna be fun to do this job with.
+왠지 네가 이 일을 좋아할 것 같은데?
 	[wait 2 sec]
-Well this place isn't going to clean itself, far as I know. I'll finish up here, in the mean time could you please clear the table?
+이 곳이 자기 혼자 깨끗해지진 않겠지. 난 여길 마저 치워야겠어. 그동안에 테이블 좀 청소해줄래?
 	[wait 2 sec]
 	[fire table_reset trigger]
 }
@@ -49,13 +49,13 @@ Well this place isn't going to clean itself, far as I know. I'll finish up here,
 cleaner03
 {
 	[color 00e53b]
-That's the story, little one.
+사실 맞아, 얘야.
 	[wait 2 sec]
-Oh don't you worry now, we'll be through this mess in no time!
+오 걱정하지마. 우리는 바로 이 난장판을 헤쳐나갈거거든!
 	[wait 2 sec]
-I promise you'll wish there was more.
+장담하는데 "치울게 더 있었으면"하고 바라게 될거야.
 	[wait 2 sec]
-Why don't I finish up here, in the mean time could you please clear the table?
+내가 여기를 마저 치우는 동안에, 테이블 좀 청소해주지 않을래? 
 	[wait 2 sec]
 	[fire table_reset trigger]
 }

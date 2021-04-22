@@ -54,7 +54,7 @@ cleaner03
 	[wait 3 sec]
 정리가 필요한게 아무것도 없다고 생각하겠지. 하지만 조심해. 왜냐하면 그게 전부거든.
 	[wait 3 sec]
-적어도, 내 공간은 여기에 찾아온 작은 평화로움을 눈으로 확인하기 위한 공간이라고.
+적어도, 내 공간은 여기에 찾아온 작은 평화로움을 눈으로 확인하기 위한 공간이라고.(이 라인은 Git 기능을 테스트하기 위한 라인입니다.)
 	[wait 4 sec]
 Speaking of which, the pillows on this couch are a wreck, would you come out and straighten them up?
 	[wait 2 sec]

@@ -1,0 +1,48 @@
+Text1
+{
+	[color f15822]
+	거기 누구 있나요?
+		[Wait 1 sec]
+	제발, 뭐라도 말해봐요
+		[Wait 1 sec]
+	뭐든 좋으니까, 뭐라도 말해봐요!
+		[Wait 1 sec]
+	제게 말해봐요! 제발!
+		[Wait 1 sec]
+	왜 그렇게 말하는 걸 어려워해요?
+		[Wait 1 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[fire end trigger]
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!
+		[Wait 0.5 sec]
+	말해!	
+		[Wait 0.5 sec]
+	말해!	
+		[Wait 0.5 sec]
+[clear]
+}
+
+
+
+[Text1]

@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+	$basetexture "tower/letter5"
+	$translucent 1
+}

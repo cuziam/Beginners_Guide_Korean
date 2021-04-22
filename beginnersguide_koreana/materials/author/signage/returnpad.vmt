@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "author/signage/returnpad"
+	"$translucent"	1
+	"$surfaceprop"	"no_decal"
+}

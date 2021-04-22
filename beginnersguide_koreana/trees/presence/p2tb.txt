@@ -1,0 +1,86 @@
+#modern
+
+start
+{
+	[color f85078] 
+	[wait 2 sec]
+좋아. 다시 바깥으로 나왔어.
+	[wait 2 sec]
+[play p1n]
+}
+
+p1n
+{
+	[color ffffff]
+	Opt1: 문을 닫아야 해. [play p1fC]
+	Opt2: 문을 열어야 해. [play p1s]
+	Opt3: 안에 있는 스위치를 눌러야 해. [play p1fD]
+}
+
+p1fC
+{
+	[color f85078] 
+	[wait 2 sec]
+어... 문은 벌써 닫혀있는 걸.
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fD
+{
+	[color f85078] 
+	[wait 2 sec]
+우린... 아직 바깥에 있는 걸.
+	[wait 3 sec]
+[play p1n]
+}
+
+
+p1s
+{
+[fire door1open trigger]
+	[wait 2 sec]
+좋아, 이제는?
+	[wait 3 sec]
+[play p2n]
+}
+
+p2n
+{
+	Opt1: 이제 첫번째 문을 닫아야 해. [play p2s]
+	Opt2: 이제 첫번째 문을 열어야 해. [play p2fA]
+	Opt3: 이제 안에 있는 스위치를 눌러야 해. [play p2fB]
+}
+
+p2fA
+{
+	[wait 2 sec]
+하지만 벌써 열려있다고!
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2fB
+{
+	[wait 2 sec]
+여기서는 스위치가 안 보이는데.
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2nb
+{
+	Opt1: 그러면, 첫번째 문을 닫아줘. [play p2s]
+	Opt2: 그러면, 첫번째 문을 열어줘. [play p2fA]
+	Opt3: 그러면, 안에 있는 스위치를 눌러줘. [play p2fB]
+}
+
+p2s
+{
+	[wait 0.5 sec]
+[fire door1close trigger]
+	[wait 1 sec]
+}
+
+
+[start]

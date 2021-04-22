@@ -1,0 +1,136 @@
+#modern
+
+start
+{
+	[color f85078] 
+이게 그 퍼즐이야.
+	[wait 2 sec]
+어떻게 생각해?
+	[wait 2 sec]
+[play start2]
+}
+
+start2
+{
+	[color ffffff]
+	Opt1: 야, 이거 뭔지 알겠는데! [fire pres5a2 enable] [play start3]
+	Opt2: 나 전에 풀어 본 적 있어! [fire pres5b2 enable] [play start3]
+	Opt3: 쉽네! [fire pres5c2 enable] [play start3]
+}
+
+start3
+{
+	[color f85078]
+	[wait 2 sec] 
+오 좋아!
+	[wait 2 sec]
+그럼 무엇을 해야 하는지 말해줄래?
+	[wait 2 sec]
+[play p1i]
+}
+
+p1i
+{
+	[color ffffff]
+	Opt1: 첫번째로 문을 닫아야 해. [play p1fA]
+	Opt2: 첫번째로 문을 열어야 해. [play p1s]
+	Opt3: 첫번째로 안쪽의 스위치를 눌러야 해. [play p1fB]
+}
+
+p1fA
+{
+	[color f85078] 
+	[wait 2 sec]
+하지만 문이 이미 닫혀있는걸!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fB
+{
+	[color f85078] 
+	[wait 2 sec]
+하지만 우리는 안에 있지 않은걸!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1n
+{
+	Opt1: 문을 닫아야 해. [play p1fC]
+	Opt2: 문을 열어야 해. [play p1s]
+	Opt3: 안의 스위치를 눌러야 해. [play p1fD]
+}
+
+p1fC
+{
+	[color f85078] 
+	[wait 2 sec]
+어... 문이 이미 닫혀있는걸.
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fD
+{
+	[color f85078] 
+	[wait 2 sec]
+우린... 아직 밖에 있는걸.
+	[wait 3 sec]
+[play p1n]
+}
+
+
+p1s
+{
+[fire door1open trigger]
+	[wait 2 sec]
+그래, 이제 다음은?
+	[wait 3 sec]
+[play p2n]
+}
+
+p2n
+{
+	Opt1: 이제, 첫번째 문을 닫아야 해.[play p2s]
+	Opt2: 이제, 첫번째 문을 열어야 해. [play p2fA]
+	Opt3: 이제 안쪽의 스위치를 눌러야 해. [play p2fB]
+}
+
+p2fA
+{
+	[wait 2 sec]
+하지만 벌써 열려있는걸!
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2fB
+{
+	[wait 2 sec]
+여기서는 어떤 스위치도 안 보여.
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2nb
+{
+	Opt1: 그러면, 첫번째 문을 닫아. [play p2s]
+	Opt2: 그러면, 첫번째 문을 열어. [play p2fA]
+	Opt3: 그러면, 안쪽의 스위치를 눌러. [play p2fB]
+}
+
+p2s
+{
+	[wait 0.5 sec]
+[fire door1close trigger]
+	[wait 1 sec]
+}
+
+
+
+
+
+
+
+[start]

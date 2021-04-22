@@ -1,0 +1,165 @@
+#modern
+
+go
+{
+	[color f85078] 
+좋아! 여기야!
+	[wait 3 sec]
+[play coda2a]
+}
+
+coda2a
+{
+	[color ffffff]
+	Opt1: 무슨 말을 하는거야? [fire pres10a enable] [play game2a]
+	Opt2: 여기에 기계는 없잖아. [fire pres10b enable] [play game2a]
+	Opt3: 그냥 벽들에 단어들만 써져있는걸. [fire pres10c enable] [play game2a]
+}
+
+game2a
+{
+	[wait 2 sec]
+날 믿어. 넌 보게 될거야.
+	[wait 2 sec]
+넌 네 작품이 재미있고 쉽다고 말해야 해.
+	[wait 2 sec]
+그리고 게임 개발이 간단하고도 기쁨이 넘치는 일이고, 네가 100% 사랑하는 일이라고 말해야해.
+	[wait 4 sec]
+[play coda2]
+}
+
+
+coda2
+{
+	Opt1: 그래... 게임 만드는 일은 간단해. [fire pres11a enable] [fire bustawalls1 trigger] [play game3]
+	Opt2: 그래... 게임 만드는 일은 쉬워. [fire pres11b enable] [fire bustawalls1 trigger] [play game3]
+	Opt3: 알았어... 게임 만드는 일은 힘들지 않은 일이야. [fire pres11c enable] [fire bustawalls1 trigger] [play game3]
+}
+
+game3
+{
+	[color db476a]
+	[wait 2 sec]
+좋아... 아주 좋네.
+	[wait 2 sec]
+[play coda3]
+}
+
+coda3
+{
+	Opt1: ...하지만 그건 사실이 아니야. [fire pres12a enable] [play game4]
+	Opt2: 왜 벽들이 부숴지지? [fire pres12b enable] [play game4]
+	Opt3: 이렇게 말할 때 내가 왜 역겨움을 느끼지?  [fire pres12c enable] [play game4]
+}
+
+game4
+{
+	[color db476a]
+	[wait 2 sec]
+걱정하지마, 계속해서 말해봐.
+	[wait 2 sec]
+무언가 만드는 일은 쉽다고 계속해서 말해봐.
+	[wait 3 sec]
+[play coda4]
+}
+
+coda4
+{
+	Opt1: 게임을 만들 때마다, 난 완전히 에너지가 넘쳐.[fire bustawalls2 trigger] [play game5]
+	Opt2: 난 내 작품에 열광하고 끊임없어 열정을 바쳐. [fire bustawalls2 trigger] [play game5]
+	Opt3: 그건 쉽지. 하지만 그런다고 절대 쉬워지지 않아. [fire bustawalls2 trigger] [play game5]
+}
+
+game5
+{
+	[color c33f5e]
+	[wait 2 sec]
+그래 훌륭해.
+	[wait 2 sec]
+계속 해.
+	[wait 2 sec]
+[play coda5]
+}
+
+coda5
+{
+	Opt1: 무언가를 만들어낼 때마다, 나 스스로에 대해 기분이 좋아져. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt2: 무언가 만드는 일을 절대로 멈추지마. 그러면 절대 기분이 나빠질 일이 없어. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt3: 간단한 해답이네. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+}
+
+game6
+{
+	[color aa3752]
+	[wait 2 sec]
+완벽해.
+	[wait 2 sec]
+환상적이구만.
+	[wait 2 sec]
+[play coda6a]
+}
+
+coda6a
+{
+	Opt1: 이런 건 아무 도움도 안돼. [play game6a]
+	Opt2: 토할 것 같아. [play game6a]
+	Opt3: 제발! 기계는 어디에 있어! [play game6a]
+}
+
+game6a
+{
+	[wait 2 sec]
+인내심을 가져. 나를 믿어야만 해.
+	[wait 2 sec]
+이게 잘 먹혀들거라고 약속할께.
+	[wait 2 sec]
+제발, 계속해봐.
+	[wait 2 sec]
+[play coda6]
+}
+
+coda6
+{
+	Opt1: 고통은 자연스럽게 사라져 버릴꺼야 [fire bustawalls5 trigger] [play game7]
+	Opt2: 내 작품을 위해 희생하는 건 100% 가치가 있어.  [fire bustawalls5 trigger] [play game7]
+	Opt3: 결국엔 다 의미가 있을거야. [fire bustawalls5 trigger] [play game7]
+}
+
+game7
+{
+	[color 943048]
+	[wait 2 sec]
+그래.
+	[wait 1 sec]
+좀 더.
+	[wait 1 sec]
+계속해.
+	[wait 2 sec]
+[play coda7]
+}
+
+coda7
+{
+	Opt1: 어떠한 부끄러움도, 무서움도, 죄의식도 없어. [fire bustawalls6 trigger] [play game8]
+	Opt2: 난 내 작품으로 구원 받을거야. [fire bustawalls6 trigger] [play game8]
+	Opt3: 의심할 여지 없이, 난 이 사실을 믿어. 난 확신으로 가득찬 그릇과 같다는 걸. [fire bustawalls6 trigger] [play game8]
+}
+
+game8
+{
+	[color 7d283c]
+	[wait 1 sec]
+기가 막힌데.
+	[wait 2 sec]
+바로 그거야.
+	[wait 2 sec]
+나는 자유야.
+	[wait 2 sec]
+나는 자유라고.
+	[wait 3 sec]
+[clear]
+}
+
+
+[go]
+

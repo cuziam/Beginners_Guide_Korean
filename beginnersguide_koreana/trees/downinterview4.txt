@@ -1,0 +1,120 @@
+Text1
+{
+	[color f15822]
+	[clear]
+	[fire speak1 trigger] 안녕하세요. 여기에 어떻게 오셨죠? 퍼즐을 풀어야하지 않았나요?
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: 맞아요, 어떻게 풀었는지 알고싶나요? [Play 1a]
+	[color ffcc11] Opt2: 아니요, 저는 줄곧 여기 있었는걸요. [Play 2a]
+}
+
+1a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 아뇨 아뇨! 저희가 사실 문 사이의 검은 공간이 훨씬 더 흥미롭다는 걸 알았거든요. 그 공간을 본 적이 있나요?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse] 
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: 제가 왜 그 문 사이의 공간에 신경을 써야하죠? [Play final1]
+	[color ffcc11] Opt2: 사실 지금 말이 나온김에, 거길 통과할 때 이상한 기분이 들었어요... [Play final2]
+	[color ffcc22] Opt3: 잘 기억이 안 나는데요... [Play final3]
+}
+
+2a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 언젠가 가서 그 퍼즐을 보길 권해요. 그 퍼즐은 풀라고 있는게 아니예요, 하지만 중간의 검은 공간에 앉아 있을 수는 있죠.
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: 제가 그걸 풀면 어떤 일이 벌어지나요?[Play final4]
+	[color ffcc11] Opt2: 왜 제가 그 검은 공간에 앉아 있어야 하나요? [Play final5]
+	[color ffcc22] Opt3: 당신은 누군가요? [Play final6]
+}
+
+final1
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 때가 됐거든요. 이해하려면 시간이 좀 걸리겠지만 괜찮아요.
+		[Wait 3 sec]
+	이 퍼즐을 곧 다시 보게 될거예요.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final2
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 굳이 기억하려하진 마요.
+		[Wait 3 sec]
+	이 퍼즐을 곧 다시 보게 될거예요.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final3
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 걱정 마세요, 당신은 분명히 그 퍼즐을 다시 보게될거예요.
+		[Wait 3 sec]
+	보게 되면 반드시 주의를 기울여 봐주세요.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final4
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 잘은 모르겠어요. 하지만 제가 추측해보면, 푸는데 걸린 시간 만큼 당신이 발견한 것이 가치있지는 않을 거라는거예요.
+		[Wait 3 sec]
+	곧 이 퍼즐을 다시 풀 기회가 있을거예요.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final5
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 오 정말 평화롭기 때문이죠. 처음에는 이런 식으로 느껴지지 않겠지만, 때가 되면 이렇게 생각하게 될겁니다.
+		[Wait 3 sec]
+	결국에는요.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final6
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] 가서 그 어둠 속에 잠시동안만 있어보세요. 처음엔 그 어둠이 별로겠지만, 점점 좋아하게 될겁니다.
+		[Wait 3 sec]
+	결국에는요.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+
+[Text1]

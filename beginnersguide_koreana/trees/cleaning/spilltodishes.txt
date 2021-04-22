@@ -1,0 +1,59 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	I feel compelled to share an incredibly cheesy personal insight. You okay with that?
+		[wait 2 sec]
+	[play talk1]
+}
+
+talk1
+{
+	[color ffffff] 
+Opt1: Make it especially cheesy. [wait 2 sec] [play response1]
+Opt2: Yeah I'll try to get by. [wait 2 sec] [play response1]
+Opt3: Do you absolutely have to? [wait 2 sec] [play response3]
+}
+
+response1
+{
+	[color 00e53b] 
+	...
+		[wait 2 sec]
+	...
+		[wait 3 sec]
+	No...
+		[wait 2 sec]
+	No, it was stupid, sorry.
+		[wait 1 sec]
+	Never mind.	
+		[wait 2 sec]
+	Hey these dishes need to be washed, why don't you come do that.
+	[fire dishes_continue1 enable]
+	[wait 0.1 sec]	
+	[fire dishes_reset trigger]
+}
+
+
+
+response3
+{
+	[color 00e53b] 
+	Yes.
+		[wait 2 sec]
+	...
+		[wait 3 sec]
+	No. I don't. It was stupid.
+		[wait 1 sec]
+	Never mind.
+		[wait 2 sec]
+	Hey these dishes need to be washed, why don't you come do that.
+	[fire dishes_continue1 enable]
+	[wait 0.1 sec]
+	[fire dishes_reset trigger]
+}
+
+
+
+[Go]

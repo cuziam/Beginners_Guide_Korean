@@ -1,0 +1,5 @@
+"Modulate"
+{
+	"$basetexture" "author/presence/pres2c"
+	"$translucent" 1
+}

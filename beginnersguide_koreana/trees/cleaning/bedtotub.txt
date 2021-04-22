@@ -1,0 +1,74 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+...
+	[wait 2 sec]
+아까, 내가 낯간지러운 생각을 했었다고 말했지...
+	[wait 3 sec]
+어떤 사람의 집은 그 사람의 영혼과 많이 닮아있다고 말하려고 했어.
+	[wait 3 sec]
+네가 집을 돌보듯, 집도 널 돌봐주는거지.
+	[wait 2 sec]
+헤.
+	[wait 2 sec]
+왜 나도 말하면서 이상하다고 느끼는지 모르겠다.
+	[wait 2 sec]
+[fire VO_5delay trigger]
+[play talk1]
+}
+
+talk1
+{
+[color ffffff]
+Opt1: 왜인지 알겠어, 방금 막 만난 사람에게 무언가를 말한다는 게 이상하잖아. [play talk2]
+Opt2: 그래, 네 말이 맞네. 꽤 낯간지러운걸. [play talk2]
+Opt3: 하지만 그 말에 어느정도 진실이 있잖아. 아니야? [play talk2]
+}
+
+
+talk2
+{
+	[color 00e53b] 
+	[wait 2 sec]
+...
+	[wait 2.5 sec]
+어쨌든.
+	[wait 1.5 sec]
+뭐.
+	[wait 1.5 sec]
+집안일.
+	[wait 1.5 sec]
+계속 이 집안일이나 하자고.
+	[wait 1.5 sec]
+욕조말이야. 저 욕조 좀 청소해줄래.
+	[wait 2 sec]
+[fire tub_continue2 enable]
+	[wait 0.1 sec]
+고마워.[fire tub_reset trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+We're going to be okay.
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

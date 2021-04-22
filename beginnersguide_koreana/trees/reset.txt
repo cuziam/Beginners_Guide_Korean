@@ -1,0 +1,7 @@
+reset
+{
+	[reset]
+	[wait 1 sec]
+}
+
+[reset]

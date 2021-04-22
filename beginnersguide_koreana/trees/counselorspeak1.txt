@@ -1,0 +1,76 @@
+#modern
+
+counselor1
+{
+	[color f8fc25] Opt1: 핵심은 이겁니다. '어떻게 내가 노력하지 않고 완벽해질 수 있는가.' [wait 2 sec] [play counselor2]
+	[color 585a58] Opt2: 일하러 오는 길에, 어떤 노인 분에게 사회에 기부하라고 말했었어. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt3: 아이들은 자신의 꿈을 좇으면 안돼.  [wait 2 sec] [play counselor2]
+}
+
+
+
+
+counselor2
+{
+	[color f8fc25] Opt1: 음 지금 당장 당신에게 말해드리죠. '힘들어보이면, 그건 옳은 답이 아니다.' [wait 2 sec] [play counselor3]
+	[color 585a58] Opt2: 아직 너를 사랑해. 네가 나를 차갑게 만들었을 뿐이야. [wait 2 sec] [play counselor3]
+	[color 585a58] Opt3: 홀로 남겨지는 건 분명 끔찍하겠지. [wait 2 sec] [play counselor3]
+}
+
+counselor3
+{
+	[color 585a58] Opt1: 당신들 모두가 날 현명하고 지적인 사람이라고 생각해서 참 다행이야!  [wait 2 sec] [play counselor4]
+	[color 585a58] Opt2: 음주가 내 삶을 해치지는 않아. [wait 2 sec] [play counselor4]
+	[color f8fc25] Opt3: 인생에서 바른 정답을 찾으려고 자기 자신을 괴롭힌다면, 그것은 옳은 일이 아닙니다.  [wait 2 sec] [play counselor4]
+}
+
+counselor4
+{
+	[color 585a58] Opt1: 네가 날 사랑하기 전에는 넌 행복할 수 없을거라는 거 알고있어? 사랑은 너를 위한 거라고. [wait 2 sec] [play counselor5]
+	[color f8fc25] Opt2: 단 하나의 사실만을 발견하시길 바랍니다. '가장 쉬운 것이, 앞으로 향하는 가장 간단한 길이다' [wait 2 sec] [play counselor5]
+	[color 585a58] Opt3: 으. 내가 종양을 키우고 있잖아. 징그러. [wait 2 sec] [play counselor5]
+}
+
+
+counselor5
+{
+	[color 585a58] Opt1: 하하하 그냥 농담이야. [wait 2 sec] [play counselor7]
+	[color 585a58] Opt2: 이거 끝나고 엑스터시하고 싶은 사람? [wait 2 sec] [play counselor7]
+	[color f8fc25] Opt3: 이것 말고는 어떠한 진실도 없고. 어떠한 길도 없습니다. [wait 2 sec] [play counselor7]
+}
+
+
+
+counselor7
+{
+	[color 585a58] Opt1: 내가 좋은 선생이 아니면 어쩌지...  [wait 2 sec] [play counselor9]
+	[color f8fc25] Opt2: 가장 쉬운 걸 하세요. 가장 간단한 걸 하세요. 그리고 진실을 경험하세요. [wait 2 sec] [play counselor9]
+	[color 585a58] Opt3: 이런 씨발 얘들아. 이 방 뒤에서 뭔가 나오고 있어! [wait 2 sec] [play counselor9]
+}
+
+counselor9
+{
+	[color f8fc25] Opt1: 아무것도. 어느 누구도. [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt2: 그게 너한테 가고 있다고! 널 파괴하고 말꺼야! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt3: 모두 도망쳐! 도망치라고!!! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+}
+
+counselor10
+{
+	[color f8fc25] Opt1: 완벽하지 않습니다. [play wait]
+	[color f8fc25] Opt2: 완벽하지 않습니다. [play wait] 
+	[color f8fc25] Opt3: 완벽하지 않습니다. [play wait]
+}
+
+wait
+{
+	
+	[wait 1 sec]
+}
+
+[counselor1]
+
+
+
+
+

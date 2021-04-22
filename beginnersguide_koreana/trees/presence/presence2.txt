@@ -1,0 +1,52 @@
+#modern
+
+game1
+{
+	[color f85078] 
+사람인가? 이렇게 반가울수가!
+	[wait 2 sec]
+다른 사람이랑 대화해본지 오랜 세월이 흘렀는데.
+	[wait 2 sec]
+...
+	[wait 2 sec]
+무슨 일이야? 길을 잃은 것 같네.
+	[wait 4 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: 난 완전히 아이디어가 바닥났어. [fire pres4a enable] [fire block3fadeout trigger] [play transition1]
+	Opt2: 무언가 창작을 하려할 때 마다, 공허해.[fire pres4b enable] [fire block3fadeout trigger] [play transition2]
+	Opt3: 만들어낼만한게 아무 것도 남지 않았어. [fire pres4c enable] [fire block3fadeout trigger] [play transition3]
+}
+
+transition1
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition2
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition3
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+[game1]

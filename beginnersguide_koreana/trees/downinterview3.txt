@@ -1,0 +1,218 @@
+﻿start
+{
+	[color f15822]
+	[fire speak1 trigger] 거기 당신! 위쪽에서 오셨나요? 저 위에는 무엇이 있나요?
+		[Wait 5 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: 맞아요, 거기엔 순백으로 가득찬 세상이 있어요. [Play 1a]
+	[color ffcc11] Opt2: 맞아요, 거기엔 내가 수 시간을 갇혀있던 커다란 감옥이 있어요. [Play 1a]
+	[color ffcc22] Opt3: 맞아요. 거기엔 형형색색의 떠다니는 블록들이 있었어요. [Play 1a]
+}
+
+1a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 그게 위쪽의 세상이군요! 당신은 거기 있었고요!
+		[Wait 3 sec]
+	이제가 중요합니다. 두 개의 문과 스위치들로 이루어진 어떤 퍼즐을 통과해야 했나요?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse]
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: 네 맞아요! 그게 여기 오기전에 정말 마지막으로 했던 일이에요. [Play 2a]
+	[color ffcc11] Opt2: 아니요. 그런 퍼즐을 통과했는지 기억이 안나는데요. [Play 2b]
+	[color ffcc22] Opt3: 당신에게 말하지 않는 것이 좋겠네요. 뭐가 됐든, 우린 방금 만났는데요. [Play 2c]
+}
+
+2a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 다시 한번, 완벽하군요! 이제 그럼, 어떻게 푸셨는지 말씀해주시겠어요? 방법을 알려주세요! 반대 편에 어떻게 도착했는지 말씀해주세요.
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: 제가... 제가 그걸 어떻게 풀었는지 기억이 안나네요. 기억해보려고 하는데, 기억이 안나네요. [Play downfinala]
+	[color ffcc11] Opt2: 전 그걸 풀지 않았어요. 누군가가 들여보내줬죠. [Play downfinalb]
+	[color ffcc22] Opt3: 절 믿으세요. 당신도 거기 가고 싶지 않을꺼예요. [Play downfinalc]
+}
+
+2b
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 기억이 안난다고요? 그럼 어떻게 거기에 도착하셨나요? 퍼즐이 유일한 방법인데요!
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2bResponse]
+}
+
+2bResponse
+{
+	[color ffcc00] Opt1: 출입할 수 있는 다른 길들이 있었어요. [Play downfinald]
+	[color ffcc11] Opt2: 여기 어떻게 왔는지 기억이 안나요. [Play downfinala]
+	[color ffcc22] Opt3: 잠시만요, 그래요, 풀었네요! 전 퍼즐 풀기 챔피언이에요. 제가 원하면 어디든 갈 수 있다고요! [Play downfinale]
+}
+
+
+2c
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 뭐라고요?? 하지만 당신은... 당신은 이해못해요. 저흰 여기 갇혀있어요. 그 퍼즐만이 유일한 탈출방법이고, 저희는 그걸 통과해야한다고요!
+		[Wait 2 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2cResponse]
+}
+
+
+2cResponse
+{
+	[color ffcc00] Opt1: 당신은 통과해야한다고 믿고 싶겠지만, 절 믿으세요. 그렇지 않아요. [Play downfinalc]
+	[color ffcc11] Opt2: 한번 말해볼께요. 거기 너머에 있는 것 모두에 대해 말해볼께요. [Play downfinalf]
+	[color ffcc22] Opt3: 좋아요. 그걸 푸는 방법을 말해줄께요. [Play downfinalg]
+}
+
+
+
+
+
+downfinala
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 열심히 생각하셔야 해요! 제발요! 기억하려고 애써보세요! 
+		[Wait 2 sec]
+	우린 여기서 탈출하는 게 중요해요. 이 감옥을 꼭 탈출해야해요!
+		[Wait 2 sec]
+	기억하실 수 있나요? 
+		[Wait 2 sec]
+	틀림없이 뭔가 더 있을꺼예요.
+		[Wait 2 sec]
+	제발요. 끝에 다다르는 방법을 알려주세요.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+downfinalb
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 풀지 않았다고요?
+		[Wait 2 sec]
+	그럼 아무것도 배운 게 없겠군요.
+		[Wait 2 sec]
+	당신은 저희가 이 감옥을 탈출할 수 있도록 돕지 못하네요.
+		[Wait 2 sec]
+	당신은 제가 필요로 한 사람이 아니군요.
+		[Wait 2 sec]
+	분명히 누군가가 나타나겠죠.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalc
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 오 이런, 하지만 전 할 수 있어요!
+		[Wait 2 sec]
+	이해하시겠어요? 세상에서 가장 중요한 일이라고요.
+		[Wait 2 sec]
+	저흰 이 감옥에서 벗어나야해요.
+		[Wait 2 sec]
+	분명히 끝이 있을꺼예요!
+		[Wait 2 sec]
+	약속할께요. 이 보다 바라는 건 없어요!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinald
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 다른 길이요? 하지만 제발 말씀해주셔야해요! 우리에게 말해주셔야해요!
+		[Wait 2 sec]
+	당신은 이해할 수 없어요. 저흰 여기서 빠져나와야 해요. 그게 가장 중요한 일이고요!
+		[Wait 2 sec]
+	저흰 이 감옥에서 빠져 나와야해요!
+		[Wait 2 sec]
+	제 말 들려요?
+		[Wait 2 sec]
+	끝에 도착하는 방법을 알려주시겠어요?
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinale
+{
+		[wait 2 sec]
+	[fire speak1 trigger] …
+		[Wait 2 sec]
+	아니예요. 그럴 수 없어요.
+		[Wait 2 sec]
+	당신은 반대편에 있지 않았군요. 반대편에 무엇이 있는지도 몰라요.
+		[Wait 2 sec]
+	당신은 저희 이 감옥을 탈출하도록 돕지 못하네요.
+		[Wait 2 sec]
+	당신은 제가 필요로 하던 사람이 아니군요.
+		[Wait 2 sec]
+	분명히 다른 누군가가 나타나겠죠.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalf
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 아니예요, 그것만 아마 부족해요. 저희는 그곳을 정말 가봐야해요.
+		[Wait 2 sec]
+	그게 무엇인지 언급하는 만으로는 단순하지 않아요.
+		[Wait 2 sec]
+	제가 스스로 그것을 봐야만 해요.
+		[Wait 2 sec]
+	제가 이 감옥을 탈출해야만 해요.
+		[Wait 2 sec]
+	분명히 끝이 있을 거라고요!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalg
+{
+		[wait 2 sec]
+	[fire speak1 trigger] 잘됐군요!
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	글쎄요?
+		[Wait 2 sec]
+	그게 뭔가요? 답이 뭐죠?
+		[Wait 2 sec]
+	제발요. 제게 탈출하는 방법을 알려주세요. 이 감옥을 탈출하는 방법을 알려주세요.
+		[Wait 2 sec]
+	전 알아야만 해요! 그게 가장 중요한 일이라고요!
+		[Wait 2 sec]
+	분명히 끝이 있을꺼라고요!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+
+[start]

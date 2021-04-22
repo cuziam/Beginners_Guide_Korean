@@ -1,0 +1,13 @@
+#modern
+
+game1
+{
+	[color f85078] 
+완벽하네.
+	[wait 2 sec]
+따라와, 네게 그걸 보여줄께.
+	[wait 1 sec]
+}
+
+
+[game1]

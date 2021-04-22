@@ -1,0 +1,31 @@
+#modern
+
+game1
+{
+	[color f85078] 
+내가 기계한테 데려다 줄게. 하지만 문제가 있어.
+	[wait 2 sec]
+어떤 어려운 퍼즐이 기계를 지키고 있거든.
+	[wait 2 sec]
+그 퍼즐을 풀 수 있도록 네가 도와주면, 기계를 찾아낼 수 있을거야.
+	[wait 2 sec]
+그렇게 할래?
+	[wait 3 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: 그럴께. [fire block6fadeout trigger] [play transition1]
+	Opt2: 그럴께. [fire block6fadeout trigger] [play transition1]
+	Opt3! 내가 뭐라하든 상관없잖아, 그렇지 않아? 우린 어떻게든 거기 갈껀데. 그렇지?  [say2 Deal.]  [fire block6fadeout trigger] [play transition1]
+}
+
+transition1
+{
+	[wait 1 sec]
+}
+
+
+[game1]

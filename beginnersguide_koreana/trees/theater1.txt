@@ -1,0 +1,50 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+Alright! The performance is beginning! Places please!
+	[wait 5 sec]
+In this scene, you will be playing as me.
+	[wait 3 sec]
+We are at a gathering of professionals.
+	[wait 3 sec]
+First, you'll start out leaning against this wall.
+	[wait 1 sec]
+[fire wall_on trigger]
+	[wait 1 sec]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

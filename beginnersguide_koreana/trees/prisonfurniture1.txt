@@ -1,0 +1,106 @@
+Go
+{
+	[color f15822] 
+	방 가운데에 어떤 가구를 놔야할까?
+		[wait 3 sec]
+	[play response1]
+}
+
+response1
+{
+	[color ffcc00] 
+	Opt1: 서라운드 사운드를 갖춘 티비 어때. [Play table]
+	Opt2: 냉장고. [Play table]
+	Opt3: 땅 속에 커다란 구멍을 뚫자. [Play table]
+}
+
+table
+{
+	[wait 1 sec]
+	[fire makePrison_prop_glasstable enable] [fire glass_table_boop playsound] [fire table1outline disable]
+	[clear]
+	[wait 3 sec]
+	좋아, 이제 벽에는 무엇을 놓을까?
+	[wait 2 sec]
+	[play response2]
+}
+
+response2
+{
+	Opt1: 커다란 말 그림을 놓자. [Play couch]
+	Opt2: 세탁기가 정말 좋을것 같아. [Play couch]
+	Opt3: 난로 10개를 벽에다 줄지어 놓자. [Play couch]
+}
+
+couch
+{
+	[wait 2 sec]
+	[fire makePrison_prop_sofa01 enable]
+	[fire couch1outline disable]
+	[fire couch_place_boop playsound]
+	[fire makePrison_prop_sofa02 enable]
+	[clear]
+	[wait 3 sec]
+	내 생각엔 방을 좀 밝게 만들어야할 것 같은데.
+	[wait 2 sec]
+	[play response3]
+}
+
+response3
+{
+	Opt1: 유리 천창을 놓자. 천장 전부에 말이야. 완전히 열어제끼자고. [Play light]
+	Opt2: 10x12사이즈, 매립형 6구 조명이 좋겠네. 야광으로 된 부드러운 LED 천장조명으로 말이야. [Play light]
+	Opt3: 실제로 작동하는 테슬라 코일을 구석구석에 놓자. 오예! [Play light]
+}
+
+light
+{
+	[wait 2 sec]
+	[fire makePrison_relay_lamp trigger] [fire lampoutline disable] [fire lamp_place_boop playsound]
+	[clear]
+	[wait 3 sec]
+	그리고 테이블! 테이블이 필요하지!
+	[wait 2 sec]
+	[play response5]
+}
+
+response4
+{
+	Opt1: 여기에 파일 보관함을 놓을 수 있을 것 같아. [fire VO_8 start] [Play shelves]
+	Opt2: 이 모든 선택들이 어떤 변화도 일으키지 않을거라고 생각해. [fire VO_8 start] [Play shelves]
+	Opt3: 맞아! 금고 같은 거 어때! 커다란 자물쇠가 딸린 커다란 금고!  [fire VO_8 start] [Play shelves]
+}
+
+shelves
+{
+	[wait 2 sec]
+	[fire makePrison_prop_shelves enable]
+	[clear]
+	[wait 3 sec]
+	그리고 테이블! 테이블이 필요하지!
+	[wait 2 sec]
+	[play response5]
+}
+
+response5
+{
+	Opt1: 누구야 넌? 대체 어디에서 이런 짓을 하는거야? [Play final]
+	Opt2: 이 모든 선택들이 어떤 변화도 일으키지 않을거라고 생각해. [Play final]
+	Opt3: 테이블은 1935년에 발명되었어. [Play final]
+}
+
+final
+{
+	[wait 2 sec]
+	[fire makePrison_prop_counter enable] [fire shelfoutline disable] [fire table_place_boop playsound]
+	[clear]
+	[wait 2 sec]
+	[fire makePrison_relay_expand trigger]
+	[wait 5 sec]
+	[fire VO_3 start]
+	[wait 12 sec]
+	[fire end_furniture_questions trigger]
+}
+
+
+[Go]

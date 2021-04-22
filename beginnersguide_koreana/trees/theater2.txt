@@ -1,0 +1,143 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+Good, stay right there.
+	[wait 2 sec]
+The woman across the room, in this chair, is a professional photographer of animals.
+	[wait 1 sec]
+[fire chair_on trigger]
+	[wait 3 sec]
+It's your dream to photograph animals professionally.
+	[wait 3 sec]
+This is your one chance to learn something from her, to gain something, to succeed.
+	[wait 4 sec]
+Go on, say something to her.
+	[wait 3 sec]
+[play speak1]
+}
+
+speak1
+{
+	[color ffffff] 
+	Opt1: Hello.[Play respondA]
+	Opt2: Sorry, I have to leave.[Play respondB]
+	Opt3: Where is the bathroom?[Play respondC]
+}
+
+respondA
+{
+	[color f8fc25] 
+	[wait 2 sec]
+Hello? That's it?? 
+	[wait 2 sec]
+That's not a conversation!
+	[wait 3 sec]
+You need to actually converse with her, be a human being.
+	[wait 3 sec]
+Do it again.
+	[wait 3 sec]
+[play speak2]
+}
+
+respondB
+{
+	[color f8fc25] 
+	[wait 2 sec]
+You're leaving?? You can't leave!
+	[wait 2 sec]
+You're letting your animal brain make decisions,
+	[wait 2 sec]
+be bigger than that and have an actual conversation with her.
+	[wait 3 sec]
+Do it again.
+	[wait 3 sec]
+[play speak2]
+}
+
+respondC
+{
+	[color f8fc25] 
+	[wait 2 sec]
+What are you doing?? 
+	[wait 2 sec]
+You're deflecting, you're not saying what's actually on your mind.
+	[wait 3 sec]
+Stop dancing around it and have a conversation with this person.
+	[wait 3 sec]
+Do it again.
+	[wait 3 sec]
+[play speak2]
+}
+
+speak2
+{
+	[color ffffff] 
+	Opt1: I'm super super scared right now.[Play respondD]
+	Opt2: I like you.[Play respondD]
+	Opt3: Here are all of my hopes and dreams:[Play respondD]
+}
+
+respondD
+{
+	[color f8fc25] 
+	[wait 2 sec]
+No no no! That's not what I said to her at all! 
+	[wait 2 sec]
+You're completely missing the tone of the conversation, 
+	[wait 3 sec]
+I was reserved but I knew what I wanted, I was confident. 
+	[wait 3 sec]
+For some reason it was just that one moment, but I was confident. 
+	[wait 3 sec]
+Maybe it's that you need a better feel of the setting. There were a lot of people around us.  
+	[wait 3 sec]
+I'll give you some props to work with. These cones that bounce when you touch them will represent the people nearby.
+	[wait 3 sec]
+[fire bouncers_on trigger]
+	[wait 6 sec]
+Now talk to her again!
+	[wait 4 sec]
+[play speak3]
+}
+
+speak3
+{
+	[color ffffff] 
+	Opt1: You must have worked really hard to get where you are.[Play respondE]
+	Opt2: I'll bet you've learned to lean into the pain.[Play respondE]
+	Opt3: What are some sacrifices you've had to make?[Play respondE]
+}
+
+respondE
+{
+	[color f8fc25] 
+	[wait 2 sec]
+You're messing it all up again! 
+	[wait 2 sec]
+You'll freak her out if the conversation gets that personal that quickly! 
+	[wait 3 sec]
+Do you not realize how important this was for me? I'll never get another opportunity like this again. 
+	[wait 3 sec]
+Everything was riding on this!
+	[wait 4 sec]
+[clear]
+	[wait 2 sec]
+Hm.....I want to try something.
+	[wait 2 sec]
+Try stepping back from the stage.
+	[wait 1 sec]
+[fire hallway_on trigger]
+	[wait 3 sec]
+[clear]
+}
+
+
+
+
+[Go]
+
+
+
+

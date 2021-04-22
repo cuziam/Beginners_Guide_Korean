@@ -1,0 +1,32 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: I am bursting with creative energy. [play endfail]
+	Opt2: I can't keep making these. [play ending]
+	Opt3: My work is always fun. [play endfail]
+}
+
+endfail
+{
+[fire end2 disable]
+	[wait 1 sec]
+[fire end3e trigger]
+	[wait 1 sec]
+}
+
+ending
+{
+[fire ending_relay trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

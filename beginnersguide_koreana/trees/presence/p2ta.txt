@@ -1,0 +1,58 @@
+#modern
+
+start
+{
+	[color f85078] 
+	[wait 2 sec]
+좋아, 다음은 뭐야?
+	[wait 2 sec]
+[play p3n]
+}
+
+p3n
+{
+	[color ffffff]
+	Opt1: 자 이제 첫번째 문을 닫아줘. [play p3fA]
+	Opt2: 자 이제 첫번째 문을 열어줘. [play p3fB]
+	Opt3: 자 이제 여기 있는 스위치를 눌러줘. [play p3s]
+}
+
+p3fA
+{
+	[color f85078] 
+	[wait 2 sec]
+그런데 이미 닫혀있는 걸?
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3fB
+{
+	[color f85078] 
+	[wait 2 sec]
+여기서 열 수있는 방법이 없는 것 같아.
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3nb
+{
+	Opt1: 그러면 첫번째 문을 닫아줘. [play p3fA]
+	Opt2: 그러면 첫번째 문을 열어줘 [play p3fB]
+	Opt3: 그러면 여기 있는 스위치를 눌러줘. [play p3s]
+}
+
+p3s
+{
+	[wait 1 sec]
+[fire door2open trigger]
+	[wait 2 sec]
+하! 정말 간단하네!
+	[wait 2 sec]
+내가 전에 이런 걸 풀지 못했다니 믿을수가 없다.
+	[wait 1 sec]
+}
+
+
+
+[start]

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "aa_backward/BW_C"
+	"$translucent" 1
+	//"$decal" 1
+}

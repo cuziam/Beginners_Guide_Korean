@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+
+	$baseTexture 	"author/shape/guard_head"
+	$surfaceprop	no_decal
+	$selfillum		1
+
+}

@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	완벽하네.
+		[wait 2 sec]
+	이제 그럼, 여기 와서 테이블에 있는 이 접시들좀 치워줄래?
+[fire table_continue2 enable]
+	[wait 0.1 sec]
+[fire table_reset trigger]
+	[wait 3 sec]
+	[fire VO_4 start]
+	[wait 1 sec]
+}
+
+[Go]

@@ -1,0 +1,16 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Oh dear, looks like someone spilled a drink over by the couch.
+		[wait 2 sec]
+	Maybe mop that up as long as you're over there?
+[fire spill_continue1 enable]
+	[wait 0.1 sec]
+[fire spill_reset trigger]
+}
+
+
+
+[Go]

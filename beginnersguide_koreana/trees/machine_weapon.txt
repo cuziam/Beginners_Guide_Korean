@@ -1,0 +1,10 @@
+#modern
+
+Go
+{
+	[color ffffff] 
+	Put down your weapon.
+		[wait 4 sec]
+}
+
+[Go]

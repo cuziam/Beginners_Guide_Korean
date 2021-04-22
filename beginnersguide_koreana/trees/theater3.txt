@@ -1,0 +1,24 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+Okay, yes! Now this is working! This is what it was like!
+	[wait 4 sec]
+[clear]
+	[wait 5 sec]
+That's perfect, wonderful, this is really wonderful.
+	[wait 4 sec]
+[clear]
+	[wait 9 sec]
+You're doing great.
+	[wait 4 sec]
+[clear]
+	[wait 1 sec]
+}
+
+[Go]
+
+
+
+

@@ -1,0 +1,92 @@
+#modern
+
+start
+{
+	[color ffffff] Opt1: You stopped. [wait 1 sec] [fire machine_music_start trigger] [wait 2 sec] [play calledcoda]
+}
+
+calledcoda
+{
+	[color ffffff]
+	Opt1: You stopped feeding us. [wait 2 sec]  [play dontcare]
+	Opt2: Your work was keeping us alive. [wait 2 sec]  [play dontcare]
+	Opt3: Your work was keeping us healthy. [wait 2 sec] [play dontcare]
+}
+
+dontcare
+{
+	Opt1: Those people out there, can you imagine what pain you've put them through? [fire machine2_delay trigger] [wait 2 sec]  [play lostthatright]
+	Opt2: It was only because of your creations that any of us could make it through, every day. [fire machine2_delay trigger] [wait 2 sec]  [play allisee]
+	Opt3: How could we possibly go back to trusting you to do this job? [fire machine2_delay trigger] [wait 2 sec] [play speaktothem]
+}
+
+
+
+
+
+lostthatright
+{
+	Opt1: So here's what needs to happen: you need to go out and apologize to them. [wait 6 sec]  [play talk]
+	Opt2: You have to admit to the people that you allowed them to suffer. [wait 6 sec]  [play talk]
+	Opt3: I've been so alone. [wait 3 sec]  [play alone]
+}
+
+allisee
+{
+	Opt1: So here's what needs to happen: you need to go to the people who are out there and apologize to them. [wait 6 sec]  [play talk]
+	Opt2: You have to admit to the people that you allowed them to suffer. [wait 6 sec]  [play talk]
+	Opt3: I've been so alone. [wait 3 sec]  [play alone]
+}
+
+speaktothem
+{
+	Opt1: How about this for a start: you need to go to the people who are out there and apologize to them. [wait 6 sec]  [play talk]
+	Opt2: You have to admit to the people that you allowed them to suffer. [wait 6 sec]  [play talk]
+	Opt3: I've been so alone. [wait 3 sec]  [play alone]
+}
+
+
+alone
+{
+	Opt1: Apologize for leaving me. [wait 5 sec]  [play talkalone]
+}
+
+
+talk
+{
+	Opt1: No? Nothing? [wait 6 sec]  [play speakforyou]
+	Opt2: Think carefully, I know how to hurt you. [wait 6 sec]  [play speakforyou]
+	Opt3: I have seen the thing you fear. [wait 6 sec]  [play speakforyou]
+}
+
+talkalone
+{
+	Opt1: No? Nothing? [wait 6 sec]  [play apologizeforyou]
+	Opt2: Think carefully, I know how to hurt you. [wait 6 sec]  [play apologizeforyou]
+	Opt3: I have seen the thing you fear. [wait 6 sec]  [play apologizeforyou]
+}
+
+
+apologizeforyou
+{
+	Opt1: Alright then, I will apologize to the people on your behalf. [wait 3 sec]  [play ending]
+}
+
+speakforyou
+{
+	Opt1: Alright then. I will speak to them for you. [wait 3 sec]  [play ending]
+}
+
+ending
+{
+	[clear]
+	[fire machine_door_open trigger]
+	[wait 1 sec]
+}
+
+
+
+
+
+
+[start]

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+   "$basetexture" "author\whisperpanel"
+   "$decal" 1
+   "$decalscale" 0.32
+   "$translucent" 1
+//   $selfillum 1
+}

@@ -1,0 +1,85 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+	[fire lecture_turn trigger]오늘 여기 왜 오셨죠?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]더 나은 삶을 위해서?
+		[wait 3 sec]
+	[fire lecture_turn trigger]더 좋은 직업을 갖기 이해서?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]당신의 관계들을 더 의미있게 만들기 위해서?
+		[wait 2 sec]
+	[fire lecture_turn trigger]아닙니다.
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]'완벽해지기 위해서' 여기 오신겁니다.
+		[wait 4 sec]
+[fire teleport1 enable][fire lecture_turn trigger]이 워크숍에서 당신에게 완벽해지는 방법을 알려줄겁니다. 
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]저는 당신의 친구들과, 당신이 삶속에서 마주치는 사람들이, 당신을 보고 이렇게 생각하길 바랍니다.
+		[wait 3 sec]
+	[fire lecture_turn trigger]"와, 이 사람은 나란 존재보다 더 나은 존재다."
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]지금 당장에, 당신의 삶속에서 누가 당신을 보고 저렇게 말해주나요?
+		[wait 3 sec]
+	[fire lecture_turn trigger]자기자신에게 역겨움을 느끼게 만들만큼, 정말 재능있는 누군가를 알고있나요?
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]그 누군가와 자신을 비교하며, 당신은 스스로를 쓸모없고
+		[wait 2 sec]
+	[fire lecture_turn trigger]이기적이고,
+		[wait 1 sec]
+	[fire lecture_turn2 trigger]은혜도 모르는 놈이라고 느끼게되죠.
+		[wait 1 sec]
+	[fire lecture_turn trigger]제가 당신을 그런 완벽한 사람으로 만들어주려고 합니다. 
+		[wait 2 sec]
+	[fire telejitter enable]
+		[wait 1 sec]
+[fire teleport2 enable][fire lecture_turn2 trigger]'완벽'이란 당신의 손바닥 위에 있습니다.
+		[wait 4 sec]
+	[fire lecture_turn trigger]따라서 질문해야 할 것은 "어떻게 완벽해질 수 있느냐"가 아니라, "어떻게 손쉽게 완벽해질 수 있느냐"입니다.
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]정말 쉽습니다.
+		[wait 2 sec]
+	[fire lecture_turn trigger]정말 쉬워요.
+		[wait 2 sec]
+	[fire lecture_turn2 trigger]정말로 쉽습니다.
+		[wait 2 sec]
+	[fire lecture_turn trigger]완벽해지는 건 쉽습니다.
+		[wait 4 sec]
+[fire transition trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

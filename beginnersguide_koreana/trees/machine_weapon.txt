@@ -3,7 +3,7 @@
 Go
 {
 	[color ffffff] 
-	Put down your weapon.
+	무기 내려놔.
 		[wait 4 sec]
 }
 

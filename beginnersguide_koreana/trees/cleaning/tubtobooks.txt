@@ -6,9 +6,9 @@ Go
 	[fire books_continue1 enable]
 	[wait 0.1 sec]
 	[fire books_reset trigger]
-	Are there still books scattered on the floor of the bedroom?
+	침실 마루위에 책들이 아직도 흩어져있어?
 		[wait 1 sec]
-	If so, would you put them back on the shelf?
+	그러면 선반에 그 책들좀 놔줄래?
 }
 
 

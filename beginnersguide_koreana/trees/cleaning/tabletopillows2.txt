@@ -3,9 +3,9 @@
 Go
 {
 	[color 00e53b] 
-Oh goodness, those pillows over on the couch are a real mess.
+오 이런, 저기 소파위에 널브러즌 배개들 너무 어지러운데.
 	[wait 3 sec]
-Would you go over and straighten them up a bit? Can't have these folks coming home to a messy couch.
+가서 좀 정리해줄래? 얘네들이 소파를 지저분하게 만들 순 없지.
 [fire pillows_continue3 enable]	
 	[wait 0.1 sec]
 [fire pillows_reset trigger]

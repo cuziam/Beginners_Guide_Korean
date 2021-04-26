@@ -3,13 +3,13 @@
 Go
 {
 	[color f8fc25] 
-Alright! The performance is beginning! Places please!
+좋아! 공연이 시작했어! 제자리로!
 	[wait 5 sec]
-In this scene, you will be playing as me.
+이번 장면에서, 너는 내가 되어 공연하게 될거야.
 	[wait 3 sec]
-We are at a gathering of professionals.
+우리는 '전문가들의 모임'에 와 있어.
 	[wait 3 sec]
-First, you'll start out leaning against this wall.
+먼저, 여기 벽에 기대는 걸로 시작할꺼야.
 	[wait 1 sec]
 [fire wall_on trigger]
 	[wait 1 sec]

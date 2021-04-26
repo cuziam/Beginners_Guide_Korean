@@ -3,11 +3,11 @@
 Text1
 {
 	[color 747774]
-	[fire guardtalk1 trigger]Ma'am! Glad to see you've arrived safely.
+	[fire guardtalk1 trigger]부인! 무사히 도착하셔서 기쁩니다.
 		[wait 2 sec]
-	We've captured The Machine, it's waiting for you now.
+	저희가 그 기계를 사로잡았습니다. 지금 당신을 기다리고 있습니다.
 		[wait 2 sec]
-	You can begin the interrogation whenever you like.
+	원하신다면 언제든지 심문을 시작하시면 됩니다.
 		[wait 2 sec]
 	[play Response1]
 	
@@ -15,21 +15,21 @@ Text1
 
 Response1
 {
-	[color ffffff] Opt1: I intend to be quick. [Play text2]
-	[color ffffff] Opt2: I intend to be quiet. [Play text2]
-	[color ffffff] Opt3: I intend to be brutal. [Play text2]
+	[color ffffff] Opt1: 빠른 방식이 좋겠군. [Play text2]
+	[color ffffff] Opt2: 조용한 방식이 좋겠군. [Play text2]
+	[color ffffff] Opt3: 잔인한 방식이 좋겠군. [Play text2]
 }
 
 text2
 {
 	[wait 2 sec]
-[fire guardtalk2 trigger]Very good.
+[fire guardtalk2 trigger]아주 좋습니다.
 	[wait 2 sec]
-Just be warned that someone called the press, so we might have a bit of attention on this one.
+누군가 기자진을 불렀다는 것만 조심하시지요. 조금은 신경을 써야할 것 같습니다.
 	[wait 3 sec]
-Also, one more thing that you should know about the machine:
+그리고, 그 기계에 대해 아셔야 할 것이 하나 더 있습니다.
 	[wait 2 sec]
-It calls itself Coda.
+그 기계는 스스로를 코다라고 부르더군요.
 	[wait 4 sec]
 [fire door_open trigger]
 	[wait 1 sec]

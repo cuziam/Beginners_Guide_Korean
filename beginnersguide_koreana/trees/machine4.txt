@@ -2,18 +2,18 @@
 
 talk1
 {
-	[color ffffff] Opt1: Coda, I'll make sure your work dies here! [wait 3 sec] [play talk2a]
-	[color ffffff] Opt2: Coda, I'll make sure you are known forever! [wait 3 sec] [play talk2b]
+	[color ffffff] Opt1: 코다, 너의 작품은 여기서 반드시 죽는다! [wait 3 sec] [play talk2a]
+	[color ffffff] Opt2: 코다, 너는 사람들에게 영원히 알려지고 말거다! [wait 3 sec] [play talk2b]
 }
 
 talk2a
 {
-	Opt1: Isn't that what you're scared of? Having to live without your precious creations? Having to deal with yourself? [wait 3 sec] [play talk3]
+	Opt1: 그게 네가 두려워하는거 아니야? 네 소중한 작품들을 잃은채로 사는거? 네 자신과 타협하며 사는거?[wait 3 sec] [play talk3]
 }
 
 talk2b
 {
-	Opt1: Isn't that what you're scared of? Exposed to the view of others, every day, forever? Seen in naked clarity? [wait 3 sec] [play talk3]
+	Opt1: 그게 네가 두려워하는거 아니야? 매일 다른 사람들의 시선에 둘러싸인 채, 영원히 살아가는 거? 발가벗겨진 채로 살아가는거?  [wait 3 sec] [play talk3]
 }
 
 

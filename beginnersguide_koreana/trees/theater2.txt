@@ -3,17 +3,17 @@
 Go
 {
 	[color f8fc25] 
-Good, stay right there.
+좋아, 거기 가만히 있어.
 	[wait 2 sec]
-The woman across the room, in this chair, is a professional photographer of animals.
+이 방 저편에, 의자에 앉아있는 여자는 동물전문 사진작가야.
 	[wait 1 sec]
 [fire chair_on trigger]
 	[wait 3 sec]
-It's your dream to photograph animals professionally.
+동물들을 전문적으로 촬영하는 건 너의 꿈이고.
 	[wait 3 sec]
-This is your one chance to learn something from her, to gain something, to succeed.
+저 여자에게서 무언가를 배우고, 무언가를 얻고, 출세할 수 있는 유일한 기회야. 
 	[wait 4 sec]
-Go on, say something to her.
+시작해봐. 뭔가 말해보라고.
 	[wait 3 sec]
 [play speak1]
 }
@@ -21,22 +21,22 @@ Go on, say something to her.
 speak1
 {
 	[color ffffff] 
-	Opt1: Hello.[Play respondA]
-	Opt2: Sorry, I have to leave.[Play respondB]
-	Opt3: Where is the bathroom?[Play respondC]
+	Opt1: 안녕하세요.[Play respondA]
+	Opt2: 죄송합니다, 전 가봐야겠어요.[Play respondB]
+	Opt3: 화장실은 어디있나요?[Play respondC]
 }
 
 respondA
 {
 	[color f8fc25] 
 	[wait 2 sec]
-Hello? That's it?? 
+안녕하세요? 그게 끝이야??
 	[wait 2 sec]
-That's not a conversation!
+그건 대화가 아니잖아!
 	[wait 3 sec]
-You need to actually converse with her, be a human being.
+진짜로 그녀랑 대화를 해야해, 사람구실을 하라고.
 	[wait 3 sec]
-Do it again.
+다시 해봐.
 	[wait 3 sec]
 [play speak2]
 }
@@ -45,13 +45,13 @@ respondB
 {
 	[color f8fc25] 
 	[wait 2 sec]
-You're leaving?? You can't leave!
+떠난다고?? 떠날수는 없어!
 	[wait 2 sec]
-You're letting your animal brain make decisions,
+넌 짐승처럼 멍청한 뇌로 결정을 내리는구나.
 	[wait 2 sec]
-be bigger than that and have an actual conversation with her.
+그것보다 대담해지라고. 그리고 그녀랑 진짜 대화를 하는거야.
 	[wait 3 sec]
-Do it again.
+다시 해봐.
 	[wait 3 sec]
 [play speak2]
 }
@@ -60,13 +60,13 @@ respondC
 {
 	[color f8fc25] 
 	[wait 2 sec]
-What are you doing?? 
+뭐하는거야??
 	[wait 2 sec]
-You're deflecting, you're not saying what's actually on your mind.
+넌 문제가 있어, 넌 마음에도 없는 말을 하고 있다고.
 	[wait 3 sec]
-Stop dancing around it and have a conversation with this person.
+빙빙돌려 말하지말고 이 사람과 대화를 해봐.
 	[wait 3 sec]
-Do it again.
+다시 해봐.
 	[wait 3 sec]
 [play speak2]
 }
@@ -74,30 +74,30 @@ Do it again.
 speak2
 {
 	[color ffffff] 
-	Opt1: I'm super super scared right now.[Play respondD]
-	Opt2: I like you.[Play respondD]
-	Opt3: Here are all of my hopes and dreams:[Play respondD]
+	Opt1: 나 지금 정말정말 무서운데.[Play respondD]
+	Opt2: 전 당신이 좋아요. [Play respondD]
+	Opt3: 제 모든 꿈과 희망은 이거예요. 그게 뭐냐면... [Play respondD]
 }
 
 respondD
 {
 	[color f8fc25] 
 	[wait 2 sec]
-No no no! That's not what I said to her at all! 
+아니 아니 아니! 그건 내가 저 여자에게 말하려던 게 아니라고
 	[wait 2 sec]
-You're completely missing the tone of the conversation, 
+넌 대화의 '톤'이라는 걸 완전히 잊어버리고 있어.
 	[wait 3 sec]
-I was reserved but I knew what I wanted, I was confident. 
+나는 내성적이긴 하지만 난 내가 원하는 건 알아. 난 자신감이 넘친다고.
 	[wait 3 sec]
-For some reason it was just that one moment, but I was confident. 
+무슨 이유인지 그 잠깐뿐이지만, 어쨌든 자신감이 넘친다고.
 	[wait 3 sec]
-Maybe it's that you need a better feel of the setting. There were a lot of people around us.  
+아마도 더 편안한 설정이 필요한 걸수도 있겠다. 주위에 많은 사람들이 있을수도 있겠지.
 	[wait 3 sec]
-I'll give you some props to work with. These cones that bounce when you touch them will represent the people nearby.
+쓸만한 도구들을 좀 줄게. 이 고깔들은 네가 닿을때마다 널 튕겨내는데, 네 주위에 있는 사람들을 표현하는거야.
 	[wait 3 sec]
 [fire bouncers_on trigger]
 	[wait 6 sec]
-Now talk to her again!
+이제 그녀에게 다시 말을 걸어!
 	[wait 4 sec]
 [play speak3]
 }
@@ -105,28 +105,28 @@ Now talk to her again!
 speak3
 {
 	[color ffffff] 
-	Opt1: You must have worked really hard to get where you are.[Play respondE]
-	Opt2: I'll bet you've learned to lean into the pain.[Play respondE]
-	Opt3: What are some sacrifices you've had to make?[Play respondE]
+	Opt1: 이 위치에 오기까지 정말 열심히 일하셨겠네요.[Play respondE]
+	Opt2: 분명히 고통에 기대는 방법을 배우셨겠네요.[Play respondE]
+	Opt3: 당신이 치뤄야했던 희생은 무엇이었나요?[Play respondE]
 }
 
 respondE
 {
 	[color f8fc25] 
 	[wait 2 sec]
-You're messing it all up again! 
+네가 또 완전히 망쳐버렸어!
 	[wait 2 sec]
-You'll freak her out if the conversation gets that personal that quickly! 
+대화가 그렇게 사적이거나 빠르면 그 여자를 놀라게하고 말거라고!
 	[wait 3 sec]
-Do you not realize how important this was for me? I'll never get another opportunity like this again. 
+이게 나에게 얼마나 중요한지 모르겠어? 이런 기회를 다시는 얻지 못할거라고.
 	[wait 3 sec]
-Everything was riding on this!
+모든게 여기에 달렸어!
 	[wait 4 sec]
 [clear]
 	[wait 2 sec]
-Hm.....I want to try something.
+흠... 뭔가 시도해봐야겠는데.
 	[wait 2 sec]
-Try stepping back from the stage.
+무대에서 물러서봐.
 	[wait 1 sec]
 [fire hallway_on trigger]
 	[wait 3 sec]

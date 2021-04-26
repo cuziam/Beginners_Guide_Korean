@@ -5,15 +5,15 @@ Go
 	[color 00e53b] 
 ...
 	[wait 2 sec]
-Earlier, when I said I had a really cheesy thought...
+아까, 내가 낯간지러운 생각을 했었다고 말했지...
 	[wait 3 sec]
-I was going to say that it occurs to me that one's house is a lot like one's soul.
+어떤 사람의 집은 그 사람의 영혼과 많이 닮아있다고 말하려고 했어.
 	[wait 3 sec]
-You take care of it, and it takes care of you.
+네가 집을 돌보듯, 집도 널 돌봐주는거지.
 	[wait 2 sec]
-Heh.
+헤.
 	[wait 2 sec]
-Don't know why I felt so weird about saying that.
+왜 나도 말하면서 이상하다고 느끼는지 모르겠다.
 	[wait 2 sec]
 [play talk1]
 }
@@ -21,9 +21,9 @@ Don't know why I felt so weird about saying that.
 talk1
 {
 	[color ffffff] 
-Opt1: I get it, that's a weird thing to say to someone you just met. [play talk2]
-Opt2: Yeah, you're right, that's pretty cheesy. [play talk2]
-Opt3: But there's a bit of truth in it, no? [play talk2]
+Opt1: 왜인지 알겠어, 방금 막 만난 사람에게 무언가를 말한다는 게 이상하잖아. [play talk2]
+Opt2: 그래, 네 말이 맞네. 꽤 낯간지러운걸. [play talk2]
+Opt3: 하지만 그 말에 어느정도 진실이 있잖아. 아니야? [play talk2]
 }
 
 
@@ -33,15 +33,15 @@ talk2
 	[wait 2 sec]
 ...
 	[wait 2.5 sec]
-Anyway.
+어쨌든
 	[wait 1.5 sec]
-So.
+뭐.
 	[wait 1.5 sec]
-Housekeeping.
+집안일.
 	[wait 1.5 sec]
-Let's keep doing this.
+계속 이 집안일이나 하자고.
 	[wait 1.5 sec]
-Books. Would you please clean up the books.
+책들말이야. 저 책들을 정리해줄래?
 	[wait 2 sec]
 [fire books_continue2 enable]
 	[wait 0.1 sec]

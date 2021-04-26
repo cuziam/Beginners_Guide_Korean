@@ -2,38 +2,38 @@
 
 talk1
 {
-	[color ffffff] Opt1: MY FOLLOWERS! [wait 2 sec] [play talk2]
-	[color ffffff] Opt2: MY FRIENDS! [wait 2 sec] [play talk2]
+	[color ffffff] Opt1: 내 추종자들이여! [wait 2 sec] [play talk2]
+	[color ffffff] Opt2: 내 동지들이여! [wait 2 sec] [play talk2]
 }
 
 talk2
 {
-	Opt1: It falls on me to deliver bad news. [wait 2 sec] [play talk3]
-	Opt2: I have a troubling revelation. [wait 2 sec] [play talk3]
+	Opt1: 나쁜 소식을 전하게 되었습니다. [wait 2 sec] [play talk3]
+	Opt2: 힘들지만 폭로할 것이 있습니다. [wait 2 sec] [play talk3]
 }
 
 talk3
 {
-	Opt1: The machine will not apologize to us. [wait 2 sec] [play talk4a]
-	Opt2: The machine refuses to admit that it deliberately hurt us. [wait 2 sec] [play talk4a]
+	Opt1: 기계는 우리에게 사과하지 않을 것입니다. [wait 2 sec] [play talk4a]
+	Opt2: 기계가 우리에게 고의로 피해를 주었다는 사실을 인정하기를 거부했습니다. [wait 2 sec] [play talk4a]
 }
 
 talk4a
 {
-	Opt1: But this is not important! We are stronger than it thinks we are. [wait 2 sec] [play talk4b]
-	Opt2: We will find a way to live without it! We do not need its games. [wait 2 sec] [play talk4b]
+	Opt1: 하지만 이건 중요하지 않습니다! 우리는 기계가 생각하는 것보다 훨씬 강합니다![wait 2 sec] [play talk4b]
+	Opt2: 우리는 기계없이 살아가는 방법을 찾아내고 말겁니다! 우리는 기계가 만든 게임들이 필요하지 않습니다. [wait 2 sec] [play talk4b]
 }
 
 talk4b
 {
-	Opt1: Let us pay it retribution! [wait 2 sec] [play talk9]
-	Opt2: Let us show it that we are not failures! [wait 2 sec] [play talk9]
+	Opt1: 응징으로 갚아줍시다! [wait 2 sec] [play talk9]
+	Opt2: 우리가 실패자가 아니라는 것을 보여줍시다! [wait 2 sec] [play talk9]
 }
 
 talk9
 {
-	Opt1: Follow me! We will destroy the machine! [wait 4 sec] [play talk10]
-	Opt2: Follow me! We will destroy everything that the machine has created! [wait 4 sec] [play talk10]
+	Opt1: 나를 따라오십시오! 우리는 기계를 박살내고 말겁니다!  [wait 4 sec] [play talk10]
+	Opt2: 나를 따라오십시오! 우리는 기계가 만들어낸 모든 것들을 박살내고 말겁니다! [wait 4 sec] [play talk10]
 }
 
 talk10

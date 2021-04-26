@@ -5,22 +5,22 @@ Go
 	[color ffffff] 
 Opt1: 집안일은 정말 어려워! 어떻게 하는거야? [wait 2 sec] [play response1]
 Opt2: 이런 집들 모두 청소하기가 쉬운편이야? [wait 2 sec] [play response2]
-Opt3: 이런 자질구레한 일이 절대 끝나지 않는꺼야? [wait 2 sec] [play response3]
+Opt3: 이런 자질구레한 일이 끝나긴 해? [wait 2 sec] [play response3]
 }
 
 response1
 {
 	[color 00e53b] 
-얘, 하나 말해줄께.
+자기야, 하나 말해줄께.
 	[wait 2 sec]
-집이란 건 너 자신만큼이나 깨끗이 하기가 힘들어.
+집을 청소하는 건 몸을 깨끗이 단장하는 것만큼 어려운 일이야.
 	[wait 2 sec]
-네가 이 일이 어렵다는 사실을 발견하게되면, 아마도 일을 하러오기전에 해야할 집안일을 좀 갖게되겠자.
-	[wait 4 sec]
-Ha! And here I go with another lecture. Of course I would.
+이 일이 어렵다는 걸 깨달았다면, 네가 해야 할 집안일이 좀 있었다는 것도 여기 일하러 오기 전에 알았겠지.
+	[wait 4 sec] 
+하! 그리고 여기서 다른 잔소리 하나 더 할께. 몰론 하고말고.
 	[wait 3 sec]
 	[fire VO_5delay trigger]
-Don't you worry about all that nonsense, for now just smooth out the rug in the bedroom.
+이게 그다지 이해가 안가겠지만 걱정하지마. 자 이제 침실에 있는 깔개 좀 펴줄래.
 	[fire closet_continue2 enable]	
 	[wait 0.1 sec]
 	[fire closet_reset trigger]
@@ -30,16 +30,16 @@ Don't you worry about all that nonsense, for now just smooth out the rug in the 
 response2
 {
 	[color 00e53b] 
-Darling, let me tell you something.
+자기야, 하나 말해줄께.
 	[wait 2 sec]
-In your lifetime, you are going to clean a lot of houses.
+네 인생에 있어서, 넌 수많은 집들을 청소하게 될거야.
 	[wait 2 sec]
-And among all of those, a few of them will stick out as truly wonderful, beautiful experiences.
+그리고 그 중에서도, 극히 일부분만 정말 대단하고 아름다운 경험으로 남게 될꺼야.
 	[wait 4 sec]
-And none of them will be the ones that were easy.
+그 중에 쉬웠던 일은 없을거라고.
 	[wait 3 sec]
 	[fire VO_5delay trigger]
-Just something to think about while you smooth out the rug in the bedroom.
+침실에 있는 깔개를 정리하면서, 곰곰히 생각해 봐.
 	[fire closet_continue2 enable]
 	[wait 0.1 sec]
 	[fire closet_reset trigger]
@@ -49,18 +49,18 @@ Just something to think about while you smooth out the rug in the bedroom.
 response3
 {
 	[color 00e53b] 
-Darling, let me tell you something.
+자기야 하나 말해줄께.
 	[wait 2 sec]
-Whatever work you do, you have absolutely got to own it.
+네가 앞으로 무슨 일을 하든지간에, 넌 그 일을 반드시 네 것으로 만들어야 해.
 	[wait 2 sec]
-Otherwise, it owns you.
+달리 말하면, 그 일이 널 자신의 것으로 만드는 것을 의미하기도 해.
 	[wait 2 sec]
-So why don't we be with the task at hand and leave the future chores to future you.
+그러니까 눈앞의 일에 집중하는거 어때? 그러곤 미래의 너를 위해 할일을 남겨두는 거지.
 	[wait 2 sec]
-Present you wants to smooth out the rug in the bedroom, believe it or not.
+그럼 네 소원이었던, 침실의 깔개를 정리하는 일을 네게 줄께. 믿거나 말거나.
 	[wait 2 sec]
 	[fire VO_5delay trigger]
-Trust me on this one.
+이번엔 나를 믿어봐.
 	[fire closet_continue2 enable]
 	[wait 0.1 sec]
 	[fire closet_reset trigger]

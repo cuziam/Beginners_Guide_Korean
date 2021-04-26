@@ -3,14 +3,14 @@
 go
 {
 	Make sure you are running the game at 1280x800
-	Opt1: Please! Where is the machine! [play game6a]
-	Opt2: Please! Where is the machine! [play game6a]
-	Opt3: Please! Where is the machine! [play game6a]
+	Opt1: 부탁이야! 도대체 기계는 어디있어! [play game6a]
+	Opt2: 부탁이야! 도대체 기계는 어디있어! [play game6a]
+	Opt3: 부탁이야! 도대체 기계는 어디있어! [play game6a]
 }
 
 game6a
 {
-	i ate it
+	먹어버렸는데
 }
 
 

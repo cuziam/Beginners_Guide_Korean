@@ -15,7 +15,7 @@ response1
 	[wait 2 sec]
 집이란 건 너 자신만큼이나 깨끗이 하기가 힘들어.
 	[wait 2 sec]
-네가 이 일이 어렵다는 사실을 발견하게되면, 아마도 일을 하러오기전에 해야할 집안일을 좀 갖게되겠지.
+네가 이 일이 어렵다는 사실을 발견하게되면, 아마도 일을 하러오기전에 해야할 집안일을 좀 갖게되겠자.
 	[wait 4 sec]
 Ha! And here I go with another lecture. Of course I would.
 	[wait 3 sec]

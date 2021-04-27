@@ -3,7 +3,7 @@
 dialogue1
 {
 	[color ffffff]
-	Opt1: 안녕? [fire pres1a enable] [play transition1]
+	Opt1: 저기요? [fire pres1a enable] [play transition1]
 	Opt2: 내가 어디 있는거야? [fire pres1b enable] [play transition1]
 	Opt3: 여긴 뭐야? [fire pres1c enable] [play transition1]
 }

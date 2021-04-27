@@ -49,7 +49,7 @@ cleaner02
 cleaner03
 {
 	[color 00e53b]
-사실 맞아, 얘야.
+사실 맞아, 자기야.
 	[wait 2 sec]
 오 걱정하지마. 우리는 바로 이 난장판을 헤쳐나갈거거든!
 	[wait 2 sec]

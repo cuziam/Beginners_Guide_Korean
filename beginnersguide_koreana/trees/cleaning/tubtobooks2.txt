@@ -45,7 +45,7 @@ talk2
 	[wait 2 sec]
 [fire books_continue2 enable]
 	[wait 0.1 sec]
-Thanks.[fire books_reset trigger]
+고마워[fire books_reset trigger]
 }
 
 [Go]

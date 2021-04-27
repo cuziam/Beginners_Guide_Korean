@@ -3,9 +3,9 @@
 go
 {
 	[color ffffff] 
-	Opt1: I'm alone. [play continue]
-	Opt2: I'm stuck in it. [play continue]
-	Opt3: I have to work harder. [play continue]
+	Opt1: 난 외로워. [play continue]
+	Opt2: 난 꼼짝도 못하겠어. [play continue]
+	Opt3: 좀 더 열심히 일해야 해. [play continue]
 }
 
 continue

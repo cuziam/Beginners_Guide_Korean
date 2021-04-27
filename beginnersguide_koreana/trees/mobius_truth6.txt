@@ -3,7 +3,7 @@
 go
 {
 	[color f85078]
-You're doing it! It's working!
+잘 해내고 있어! 효과가 있네!
 	[wait 1 sec]
 }
 

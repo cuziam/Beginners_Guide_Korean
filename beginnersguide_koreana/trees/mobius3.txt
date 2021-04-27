@@ -3,9 +3,9 @@
 go
 {
 	[color ffffff] 
-	Opt1: I haven't been honest. [play continue]
-	Opt2: I can't figure out how to say the thing. [play continue]
-	Opt3: I thought it was going to be easy. [play continue]
+	Opt1: 난 솔직해져 본 적이 없어. [play continue]
+	Opt2: 뭐라고 말해야 할지 모르겠어. [play continue]
+	Opt3: 난 이런게 점점 쉬워질거라고 생각했어. [play continue]
 }
 
 continue

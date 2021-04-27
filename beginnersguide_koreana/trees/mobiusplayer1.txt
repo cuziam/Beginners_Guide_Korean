@@ -3,17 +3,17 @@
 go
 {
 	[color ffffff] 
-	Opt1: HELP! I'm blind! [wait 6 sec] [play line2]
-	Opt2: I can't see anything! [wait 6 sec] [play line2]
-	Opt3: What's going on?? [wait 6 sec] [play line2]
+	Opt1: 도와줘! 눈이 멀어버렸어! [wait 6 sec] [play line2]
+	Opt2: 아무것도 보이지 않아! [wait 6 sec] [play line2]
+	Opt3: 무슨 일이 일어나고 있는거야? [wait 6 sec] [play line2]
 }
 
 line2
 {
 	[color ffffff] 
-	Opt1: Please, someone talk to me! [play line3]
-	Opt2: Please, tell me how to solve this. [play line3]
-	Opt3: Please don't let this be forever. [play line3]
+	Opt1: 제발, 누가 나한테 말좀 걸어봐! [play line3]
+	Opt2: 제발, 이걸 해결할 방법 좀 알려줘봐. [play line3]
+	Opt3: 제발 이게 계속되게 하지 말아줘.[play line3]
 
 }
 

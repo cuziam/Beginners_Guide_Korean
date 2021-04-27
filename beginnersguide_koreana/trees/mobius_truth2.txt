@@ -3,7 +3,7 @@
 go
 {
 	[color f85078]
-The only way to stop it is to speak something that is honest.
+이걸 멈출 수 있는 유일한 방법은 솔직하게 무언가를 말하는 일뿐이야.
 	[wait 1 sec]
 }
 

@@ -3,7 +3,7 @@
 go
 {
 	[color f85078]
-Yes! That's it! That's the truth!
+맞아! 바로 그거야! 그게 진심이야!
 	[wait 1 sec]
 }
 

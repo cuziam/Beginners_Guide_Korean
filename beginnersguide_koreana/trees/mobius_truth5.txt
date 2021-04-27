@@ -3,7 +3,7 @@
 go
 {
 	[color f85078]
-Keep going! Keep talking!
+계속 해! 계속 말해보라고!
 	[wait 1 sec]
 }
 

@@ -3,9 +3,9 @@
 go
 {
 	[color ffffff] 
-	Opt1: I am bursting with creative energy. [play endfail]
-	Opt2: I can't keep making these. [play ending]
-	Opt3: My work is always fun. [play endfail]
+	Opt1: 난 창의적인 에너지가 넘쳐나. [play endfail]
+	Opt2: 더 이상 이런 것들을 만들지 못하겠어. [play ending]
+	Opt3: 내가 하는 일은 언제나 재미있어. [play endfail]
 }
 
 endfail

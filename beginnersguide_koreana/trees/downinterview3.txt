@@ -179,7 +179,7 @@ downfinalf
 		[wait 2 sec]
 	[fire speak1 trigger] 아니예요, 그것만으론 아마 부족해요. 저희는 그곳을 정말 가봐야해요.
 		[Wait 2 sec]
-	그게 무엇인지 언급하는 만으로는 단순하지 않아요.
+	그게 무엇인지 언급하는 만으로는 충분하지 않아요.
 		[Wait 2 sec]
 	제가 스스로 그것을 봐야만 해요.
 		[Wait 2 sec]

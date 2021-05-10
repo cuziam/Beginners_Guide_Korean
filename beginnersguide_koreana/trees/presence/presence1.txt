@@ -4,7 +4,7 @@ dialogue1
 {
 	[color ffffff]
 	Opt1: 저기요? [fire pres1a enable] [play transition1]
-	Opt2: 내가 어디 있는거야? [fire pres1b enable] [play transition1]
+	Opt2: 내가 어디에 있는거지? [fire pres1b enable] [play transition1]
 	Opt3: 여긴 뭐야? [fire pres1c enable] [play transition1]
 }
 
@@ -20,7 +20,7 @@ dialogue2
 	[color ffffff]
 	Opt1: 이 섬은 대체 어디서 나타난거야? [fire pres2a enable] [fire block2fadeout trigger] [play transition2]
 	Opt2: 여기서 어떻게 나가지? [fire pres2b enable] [fire block2fadeout trigger] [play transition2]
-	Opt3: 저기요? 누구 계세요?! [fire pres2c enable] [fire block2fadeout trigger] [play transition2]
+	Opt3: 저기요? 누구 있어요?! [fire pres2c enable] [fire block2fadeout trigger] [play transition2]
 }
 
 transition2

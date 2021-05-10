@@ -48,7 +48,7 @@ game3
 coda3
 {
 	Opt1: ...하지만 그건 사실이 아니야. [fire pres12a enable] [play game4]
-	Opt2: 왜 벽들이 부숴지지? [fire pres12b enable] [play game4]
+	Opt2: 왜 벽들이 그냥 부숴지지? [fire pres12b enable] [play game4]
 	Opt3: 이렇게 말할 때 내가 왜 역겨움을 느끼지?  [fire pres12c enable] [play game4]
 }
 

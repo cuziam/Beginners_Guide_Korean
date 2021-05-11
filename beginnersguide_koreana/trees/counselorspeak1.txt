@@ -3,7 +3,7 @@
 counselor1
 {
 	[color f8fc25] Opt1: 핵심은 이겁니다. '어떻게 내가 노력하지 않고 완벽해질 수 있는가.' [wait 2 sec] [play counselor2]
-	[color 585a58] Opt2: 일하러 오는 길에, 어떤 노인 분에게 사회에 기부하라고 말했었어. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt2: 일하러 오는 길에, 난 어떤 노인 분에게 사회에 기부하라고 말했었어. [wait 2 sec] [play counselor2]
 	[color 585a58] Opt3: 아이들은 자신의 꿈을 좇으면 안돼.  [wait 2 sec] [play counselor2]
 }
 
@@ -26,7 +26,7 @@ counselor3
 
 counselor4
 {
-	[color 585a58] Opt1: 네가 날 사랑하기 전에는 넌 행복할 수 없을거라는 거 알고있어? 사랑은 너를 위한 거라고. [wait 2 sec] [play counselor5]
+	[color 585a58] Opt1: 네가 날 사랑하지 않으면 넌 행복할 수 없을거라는 거 알고있어? 사랑은 너를 위한 거라고. [wait 2 sec] [play counselor5]
 	[color f8fc25] Opt2: 단 하나의 사실만을 발견하시길 바랍니다. '가장 쉬운 것이, 앞으로 향하는 가장 간단한 길이다' [wait 2 sec] [play counselor5]
 	[color 585a58] Opt3: 으. 내가 종양을 키우고 있잖아. 징그러. [wait 2 sec] [play counselor5]
 }

@@ -11,7 +11,7 @@ Text1
 Response1
 {
 	[color ffcc00] Opt1: 맞아요, 어떻게 풀었는지 알고싶나요? [Play 1a]
-	[color ffcc11] Opt2: 아니요, 저는 줄곧 여기 있었는걸요. [Play 2a]
+	[color ffcc11] Opt2: 아니요, 저는 줄곧 여기에 있었는걸요. [Play 2a]
 }
 
 1a

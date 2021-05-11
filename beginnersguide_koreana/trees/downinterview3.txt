@@ -45,7 +45,7 @@ Response1
 {
 	[color ffcc00] Opt1: 제가... 제가 그걸 어떻게 풀었는지 기억이 안나네요. 기억해보려고 하는데, 기억이 안나네요. [Play downfinala]
 	[color ffcc11] Opt2: 전 그걸 풀지 않았어요. 누군가가 들여보내줬죠. [Play downfinalb]
-	[color ffcc22] Opt3: 절 믿으세요. 당신도 거기 가고 싶지 않을꺼예요. [Play downfinalc]
+	[color ffcc22] Opt3: 절 믿으세요. 당신도 거기에 가고 싶지 않을꺼예요. [Play downfinalc]
 }
 
 2b

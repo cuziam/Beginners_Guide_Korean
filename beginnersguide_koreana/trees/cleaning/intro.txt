@@ -15,7 +15,7 @@ Go
 response1
 {
 [color ffffff]
-	Opt1: 걱정하지마, 여기 좋다. 밤 동안에 여기 머무를 수 있으면 좋을 것 같은데. [wait 2 sec] [play cleaner01]
+	Opt1: 난 걱정하지마, 여기 좋다. 여기서 밤을 지새울 수 있으면 좋을 것 같은데. [wait 2 sec] [play cleaner01]
 	Opt2: 그리고 엉망진창인 집은... 외톨이를 만들지! [wait 2 sec] [play cleaner02]
 	Opt3: 우리가 여길 다 청소하는거야? [wait 2 sec] [play cleaner03]
 }

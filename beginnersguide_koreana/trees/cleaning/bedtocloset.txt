@@ -9,7 +9,7 @@ Go
 	[wait 0.1 sec]
 	[fire closet_reset trigger]
 		[wait 1 sec]
-	사소한 디테일들이 다 의미가 있다고!
+	그런 사소한 디테일들이 다 의미가 있다고!
 }
 
 

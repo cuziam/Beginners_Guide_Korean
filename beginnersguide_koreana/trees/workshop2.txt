@@ -7,7 +7,7 @@ Go
 		[wait 3 sec]
 	[fire lecture_turn2 trigger]더 나은 삶을 위해서?
 		[wait 3 sec]
-	[fire lecture_turn trigger]더 좋은 직업을 갖기 이해서?
+	[fire lecture_turn trigger]더 좋은 직업을 갖기 위해서?
 		[wait 3 sec]
 	[fire lecture_turn2 trigger]당신의 관계들을 더 의미있게 만들기 위해서?
 		[wait 2 sec]

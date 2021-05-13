@@ -8,7 +8,7 @@ Go
 	[fire tub_reset trigger]
 	욕조가 좀 더러운 것 같은데.
 		[wait 1 sec]
-	조금만 정리해줄래?
+	조금만 청소해줄래?
 }
 
 

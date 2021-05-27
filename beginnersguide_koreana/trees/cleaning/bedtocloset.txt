@@ -3,7 +3,7 @@
 Go
 {
 	[color 00e53b] 
-	거기 있는 동안, 깔개좀 똑바로 정돈해줄래?
+	거기 있는 동안에, 깔개좀 똑바로 정돈해줄래?
 		[wait 1 sec]
 	[fire closet_continue1 enable]
 	[wait 0.1 sec]

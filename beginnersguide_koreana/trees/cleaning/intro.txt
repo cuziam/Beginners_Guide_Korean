@@ -7,7 +7,7 @@ Go
 		[wait 3 sec]
 	이 집 전체를 나 혼자서 청소해야 할지도 모른다고 생각했었거든. 비참해질 수도 있었다고.
 		[wait 4 sec]
-	한 명의 일손만으로는 엉망진창인 집이 될 수 밖에 없잖아?
+	한 명의 일손만으로는 집이 엉망진창이 될 수 밖에 없잖아?
 		[wait 3 sec]
 	[play response1]
 }
@@ -15,7 +15,7 @@ Go
 response1
 {
 [color ffffff]
-	Opt1: 난 걱정하지마, 여기 좋다. 여기서 밤을 지새울 수 있으면 좋을 것 같은데. [wait 2 sec] [play cleaner01]
+	Opt1: 난 걱정하지마. 여기 좋다. 여기서 밤을 지새울 수 있으면 좋을 것 같은데. [wait 2 sec] [play cleaner01]
 	Opt2: 그리고 엉망진창인 집은... 외톨이를 만들지! [wait 2 sec] [play cleaner02]
 	Opt3: 우리가 여길 다 청소하는거야? [wait 2 sec] [play cleaner03]
 }
@@ -49,7 +49,7 @@ cleaner02
 cleaner03
 {
 	[color 00e53b]
-사실 맞아, 자기야.
+사실 맞아. 자기야.
 	[wait 2 sec]
 오 걱정하지마. 우리는 바로 이 난장판을 헤쳐나갈거거든!
 	[wait 2 sec]

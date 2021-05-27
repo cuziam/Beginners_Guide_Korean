@@ -6,7 +6,7 @@ Go
 	[fire books_continue1 enable]
 	[wait 0.1 sec]
 	[fire books_reset trigger]
-	침실 마루위에 책들이 아직도 흩어져있어?
+	침실 마루위에 책들이 아직도 널브러져있어?
 		[wait 1 sec]
 	그러면 선반에 그 책들좀 놔줄래?
 }

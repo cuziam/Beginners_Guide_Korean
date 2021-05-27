@@ -25,7 +25,7 @@ response1
 		[wait 3 sec]
 	아니다...
 		[wait 2 sec]
-	아니야, 멍청했네, 미안.
+	아니야. 멍청했네. 미안.
 		[wait 1 sec]
 	신경쓰지마.	
 		[wait 2 sec]

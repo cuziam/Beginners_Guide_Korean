@@ -22,7 +22,7 @@ speak1
 {
 	[color ffffff] 
 	Opt1: 안녕하세요.[Play respondA]
-	Opt2: 죄송합니다, 전 가봐야겠어요.[Play respondB]
+	Opt2: 죄송합니다. 전 가봐야겠어요.[Play respondB]
 	Opt3: 화장실은 어디있나요?[Play respondC]
 }
 
@@ -34,7 +34,7 @@ respondA
 	[wait 2 sec]
 그건 대화가 아니잖아!
 	[wait 3 sec]
-진짜로 그녀랑 대화를 해야해, 사람구실을 하라고.
+진짜로 그녀랑 대화를 해야해. 사람구실을 하라고.
 	[wait 3 sec]
 다시 해봐.
 	[wait 3 sec]
@@ -47,7 +47,7 @@ respondB
 	[wait 2 sec]
 떠난다고?? 떠날수는 없어!
 	[wait 2 sec]
-넌 짐승처럼 멍청한 뇌를 가졌구나.
+넌 짐승마냥 멍청한 뇌를 가졌구나.
 	[wait 2 sec]
 그것보다 대담해지라고. 그리고 그녀랑 진짜 대화를 하는거야.
 	[wait 3 sec]
@@ -62,7 +62,7 @@ respondC
 	[wait 2 sec]
 뭐하는거야??
 	[wait 2 sec]
-넌 문제가 있어, 넌 마음에도 없는 말을 하고 있다고.
+넌 문제가 있어. 넌 마음에도 없는 말을 하고 있다고.
 	[wait 3 sec]
 빙빙돌려 말하지말고 이 사람과 대화를 해봐.
 	[wait 3 sec]
@@ -106,7 +106,7 @@ speak3
 {
 	[color ffffff] 
 	Opt1: 이 위치에 오기까지 정말 열심히 일하셨겠네요.[Play respondE]
-	Opt2: 분명히 고통에 기대는 방법을 배우셨겠네요.[Play respondE]
+	Opt2: 분명히 고통을 감수하는 법을 배우셨겠네요.[Play respondE]
 	Opt3: 당신이 치뤄야했던 희생은 무엇이었나요?[Play respondE]
 }
 

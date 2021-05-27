@@ -11,9 +11,9 @@ go
 line2
 {
 	[color ffffff] 
-	Opt1: 제발, 누가 나한테 말좀 걸어봐! [play line3]
-	Opt2: 제발, 이걸 해결할 방법 좀 알려줘봐. [play line3]
-	Opt3: 제발 이게 계속되게 하지 말아줘.[play line3]
+	Opt1: 제발! 누가 나한테 말좀 걸어봐! [play line3]
+	Opt2: 제발! 이걸 해결할 방법 좀 알려줘봐. [play line3]
+	Opt3: 제발! 이게 계속되게 하지 말아줘.[play line3]
 
 }
 

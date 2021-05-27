@@ -19,7 +19,7 @@ Response1
 		[wait 2 sec]
 	[fire speak1 trigger] 그게 위쪽의 세상이군요! 당신은 거기 있었고요!
 		[Wait 3 sec]
-	이제가 중요합니다. 두 개의 문과 스위치들로 이루어진 어떤 퍼즐을 통과해야 했나요?
+	이제가 중요합니다. 두 개의 문과 스위치들로 이루어진 퍼즐을 통과해야 했나요?
 		[wait 3 sec]
 	[fire listen1 trigger] [Play 1aResponse]
 }
@@ -34,7 +34,7 @@ Response1
 2a
 {
 		[wait 2 sec]
-	[fire speak1 trigger] 다시 한번 완벽하군요! 이제 그럼, 어떻게 푸셨는지 말씀해주시겠어요? 방법을 알려주세요! 반대 편에 어떻게 도착했는지 말씀해주세요.
+	[fire speak1 trigger] 다시 한번 완벽하군요! 이제 그럼 어떻게 푸셨는지 말씀해주시겠어요? 방법을 알려주세요! 반대 편에 어떻게 도착했는지 말씀해주세요.
 		[Wait 1 sec]
 	[fire VO_13 start]
 		[wait 2 sec]
@@ -43,7 +43,7 @@ Response1
 
 2aResponse
 {
-	[color ffcc00] Opt1: 제가... 제가 그걸 어떻게 풀었는지 기억이 안나네요. 기억해보려고 하는데, 기억이 안나네요. [Play downfinala]
+	[color ffcc00] Opt1: 제가... 제가 그걸 어떻게 풀었는지 기억이 안나네요. 기억해보려고 하는데도 기억이 안나네요. [Play downfinala]
 	[color ffcc11] Opt2: 전 그걸 풀지 않았어요. 누군가가 들여보내줬죠. [Play downfinalb]
 	[color ffcc22] Opt3: 절 믿으세요. 당신도 거기에 가고 싶지 않을꺼예요. [Play downfinalc]
 }
@@ -61,15 +61,15 @@ Response1
 2bResponse
 {
 	[color ffcc00] Opt1: 출입할 수 있는 다른 길들이 있었어요. [Play downfinald]
-	[color ffcc11] Opt2: 여기 어떻게 왔는지 기억이 안나요. [Play downfinala]
-	[color ffcc22] Opt3: 잠시만요, 그래요, 풀었네요! 전 퍼즐 풀기 챔피언이에요. 제가 원하면 어디든 갈 수 있다고요! [Play downfinale]
+	[color ffcc11] Opt2: 여기에 어떻게 왔는지 기억이 안나요. [Play downfinala]
+	[color ffcc22] Opt3: 잠시만요... 그래요. 풀었네요! 전 퍼즐 풀기 챔피언이에요. 제가 원하면 어디든 갈 수 있다고요! [Play downfinale]
 }
 
 
 2c
 {
 		[wait 2 sec]
-	[fire speak1 trigger] 뭐라고요?? 하지만 당신은... 당신은 이해못해요. 저흰 여기 갇혀있어요. 그 퍼즐만이 유일한 탈출방법이고, 저희는 그걸 통과해야한다고요!
+	[fire speak1 trigger] 뭐라고요?? 하지만 당신은... 당신은 이해못해요. 저희는 여기에 갇혀있어요. 그 퍼즐만이 유일한 탈출방법이고, 저희는 그걸 통과해야한다고요!
 		[Wait 2 sec]
 	[fire VO_13 start]
 		[wait 2 sec]
@@ -80,8 +80,8 @@ Response1
 2cResponse
 {
 	[color ffcc00] Opt1: 당신은 통과해야한다고 믿고 싶겠지만, 절 믿으세요. 그렇지 않아요. [Play downfinalc]
-	[color ffcc11] Opt2: 한번 말해볼께요. 거기 너머에 있는 것 모두에 대해 말해볼께요. [Play downfinalf]
-	[color ffcc22] Opt3: 좋아요. 그걸 푸는 방법을 말해줄께요. [Play downfinalg]
+	[color ffcc11] Opt2: 한번 말해볼께요. 거기 너머에 있는 것 모두에 대해 말해볼게요. [Play downfinalf]
+	[color ffcc22] Opt3: 좋아요. 그걸 푸는 방법을 말해줄게요. [Play downfinalg]
 }
 
 
@@ -97,7 +97,7 @@ downfinala
 		[Wait 2 sec]
 	기억하실 수 있나요? 
 		[Wait 2 sec]
-	틀림없이 뭔가 더 있을꺼예요.
+	틀림없이 뭔가 더 있을거예요.
 		[Wait 2 sec]
 	제발요. 끝에 다다르는 방법을 알려주세요.
 		[Wait 4 sec]
@@ -109,11 +109,11 @@ downfinalb
 		[wait 2 sec]
 	[fire speak1 trigger] 풀지 않았다고요?
 		[Wait 2 sec]
-	그럼 아무것도 배운 게 없겠군요.
+	그럼 아무것도 배운 게 없겠네요.
 		[Wait 2 sec]
-	당신은 저희가 이 감옥을 탈출할 수 있도록 돕지 못하네요.
+	당신은 저희가 이 감옥을 탈출할 수 있도록 돕지 못하는군요.
 		[Wait 2 sec]
-	당신은 제가 필요로 한 사람이 아니군요.
+	당신은 제가 필요했던 사람이 아니네요.
 		[Wait 2 sec]
 	분명히 누군가가 나타나겠죠.
 		[Wait 4 sec]
@@ -130,9 +130,9 @@ downfinalc
 		[Wait 2 sec]
 	저희는 이 감옥에서 벗어나야해요.
 		[Wait 2 sec]
-	분명히 끝이 있을꺼예요!
+	분명히 끝이 있을거예요!
 		[Wait 2 sec]
-	약속할께요. 이 보다 바라는 건 없어요!
+	약속할게요. 이 보다 더 바랄 수는 없어요!
 		[Wait 4 sec]
 	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
 }
@@ -143,9 +143,9 @@ downfinald
 		[wait 2 sec]
 	[fire speak1 trigger] 다른 길이요? 하지만 제발 말씀해주셔야해요! 우리에게 말해주셔야해요!
 		[Wait 2 sec]
-	당신은 이해할 수 없어요. 저흰 여기서 빠져나와야 해요. 그게 가장 중요한 일이고요!
+	당신은 이해할 수 없어요. 저희는 여기서 빠져나와야 해요. 그게 가장 중요한 일이고요!
 		[Wait 2 sec]
-	저흰 이 감옥에서 빠져 나와야해요!
+	저희는 이 감옥에서 빠져 나와야해요!
 		[Wait 2 sec]
 	제 말 들려요?
 		[Wait 2 sec]
@@ -164,9 +164,9 @@ downfinale
 		[Wait 2 sec]
 	당신은 반대편에 있지 않았군요. 반대편에 무엇이 있는지도 몰라요.
 		[Wait 2 sec]
-	당신은 저희가 이 감옥을 탈출하도록 돕지 못하네요.
+	당신은 저희가 이 감옥을 탈출하도록 돕지 못하는군요.
 		[Wait 2 sec]
-	당신은 제가 필요로 하던 사람이 아니군요.
+	당신은 제가 필요했던 사람이 아니네요.
 		[Wait 2 sec]
 	분명히 다른 누군가가 나타나겠죠.
 		[Wait 4 sec]
@@ -177,15 +177,15 @@ downfinale
 downfinalf
 {
 		[wait 2 sec]
-	[fire speak1 trigger] 아니예요, 그것만으론 아마 부족해요. 저희는 그곳을 정말 가봐야해요.
+	[fire speak1 trigger] 아니예요. 그것만으론 아마 부족해요. 저희는 그곳을 정말 가봐야해요.
 		[Wait 2 sec]
 	그게 무엇인지 언급하는 것만으로는 충분하지 않아요.
 		[Wait 2 sec]
 	제가 스스로 그것을 봐야만 해요.
 		[Wait 2 sec]
-	제가 이 감옥을 탈출해야만 해요.
+	제가 이 감옥을 탈출해야만 한다고요.
 		[Wait 2 sec]
-	분명히 끝이 있을 거라고요!
+	분명히 끝이 있을 거예요!
 		[Wait 4 sec]
 	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
 }

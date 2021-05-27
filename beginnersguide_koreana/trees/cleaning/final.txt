@@ -5,7 +5,7 @@ Go
 	[color 00e53b]
 ...
 	[wait 2 sec]
-질문 하나할께.
+질문 하나할게.
 	[wait 3 sec]
 즐거웠니?
 	[wait 0.5 sec]

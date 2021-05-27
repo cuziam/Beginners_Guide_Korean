@@ -13,7 +13,7 @@ start
 start2
 {
 	[color ffffff]
-	Opt1: 야, 이거 뭔지 알겠는데! [fire pres5a2 enable] [play start3]
+	Opt1: 야 이거 뭔지 알겠는데! [fire pres5a2 enable] [play start3]
 	Opt2: 나 전에 풀어 본 적 있어! [fire pres5b2 enable] [play start3]
 	Opt3: 쉽네! [fire pres5c2 enable] [play start3]
 }

@@ -97,7 +97,7 @@ final5
 		[Wait 2 sec]
 	[fire speak1 trigger] 오 정말 평화롭기 때문이죠. 처음에는 이런 식으로 느껴지지 않겠지만, 때가 되면 이렇게 생각하게 될겁니다.
 		[Wait 3 sec]
-	결국에는요.
+	결국에는 말이죠.
 		[Wait 3 sec]
 	[fire openWall2 trigger] [fire listen1 trigger] [clear]
 		[wait 1 sec]
@@ -109,7 +109,7 @@ final6
 		[Wait 2 sec]
 	[fire speak1 trigger] 가서 그 어둠 속에 잠시동안만 있어보세요. 처음엔 그 어둠이 별로겠지만, 점점 좋아하게 될겁니다.
 		[Wait 3 sec]
-	결국에는요.
+	결국에는 말이죠.
 		[Wait 3 sec]
 	[fire openWall2 trigger] [fire listen1 trigger] [clear]
 		[wait 1 sec]

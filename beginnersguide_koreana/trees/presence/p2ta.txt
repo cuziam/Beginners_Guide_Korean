@@ -4,7 +4,7 @@ start
 {
 	[color f85078] 
 	[wait 2 sec]
-좋아, 다음은 뭐야?
+좋아. 다음은 뭐야?
 	[wait 2 sec]
 [play p3n]
 }

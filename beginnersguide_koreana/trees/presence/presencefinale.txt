@@ -49,14 +49,14 @@ coda3
 {
 	Opt1: ...하지만 그건 사실이 아니야. [fire pres12a enable] [play game4]
 	Opt2: 왜 벽들이 그냥 부숴지지? [fire pres12b enable] [play game4]
-	Opt3: 이렇게 말할 때 내가 왜 역겨움을 느끼지?  [fire pres12c enable] [play game4]
+	Opt3: 이렇게 말할 때 내가 왜 역겹지?  [fire pres12c enable] [play game4]
 }
 
 game4
 {
 	[color db476a]
 	[wait 2 sec]
-걱정하지마, 계속해서 말해봐.
+걱정하지마. 계속해서 말해봐.
 	[wait 2 sec]
 무언가 만드는 일은 쉽다고 계속해서 말해봐.
 	[wait 3 sec]
@@ -65,7 +65,7 @@ game4
 
 coda4
 {
-	Opt1: 게임을 만들 때마다, 난 완전히 에너지가 넘쳐.[fire bustawalls2 trigger] [play game5]
+	Opt1: 게임을 만들 때마다 난 완전히 에너지가 넘쳐.[fire bustawalls2 trigger] [play game5]
 	Opt2: 난 내 작품에 열광하고 끊임없어 열정을 바쳐. [fire bustawalls2 trigger] [play game5]
 	Opt3: 그건 쉽지. 하지만 그런다고 절대 쉬워지지 않아. [fire bustawalls2 trigger] [play game5]
 }
@@ -113,7 +113,7 @@ game6a
 	[wait 2 sec]
 이게 잘 먹혀들거라고 약속할께.
 	[wait 2 sec]
-제발, 계속해봐.
+제발. 계속해봐.
 	[wait 2 sec]
 [play coda6]
 }
@@ -142,7 +142,7 @@ coda7
 {
 	Opt1: 어떠한 부끄러움도, 무서움도, 죄의식도 없어. [fire bustawalls6 trigger] [play game8]
 	Opt2: 난 내 작품으로 구원 받을거야. [fire bustawalls6 trigger] [play game8]
-	Opt3: 의심할 여지 없이, 난 이 사실을 믿어. 난 확신으로 가득찬 그릇과 같다는 걸. [fire bustawalls6 trigger] [play game8]
+	Opt3: 의심할 여지 없이 난 이 사실을 믿어. 난 확신으로 가득찬 그릇과 같다는 걸. [fire bustawalls6 trigger] [play game8]
 }
 
 game8

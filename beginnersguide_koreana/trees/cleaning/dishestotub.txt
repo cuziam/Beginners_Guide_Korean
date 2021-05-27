@@ -3,15 +3,15 @@
 Go
 {
 	[color 00e53b]
-	내가 마지막으로 확인했을 때, 욕조가 청소가 좀 필요했어.
+	내가 마지막으로 확인했을 때 욕조에 청소가 좀 필요했어.
 		[wait 2 sec]
-	욕조 좀 할 수 있는 한 깨끗이 닦아줄래
+	욕조 좀 할 수 있는 한 깨끗이 닦아줄래?
 		[wait 1 sec]
 	[fire tub_continue1 enable]
 	[wait 0.1 sec]
 	[fire tub_reset trigger]
 		[wait 1 sec]
-	완벽할 필요는 없어, 우리 모두 그냥 인간일 뿐인걸
+	완벽할 것 까지는 없어. 우리 모두 한낱 인간일 뿐인걸.
 }
 
 

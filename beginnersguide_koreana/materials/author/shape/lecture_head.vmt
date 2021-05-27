@@ -1,8 +1,0 @@
-LightmappedGeneric
-{
-
-	$baseTexture 	"author/shape/lecture_head"
-	$surfaceprop	no_decal
-	$selfillum		1
-
-}

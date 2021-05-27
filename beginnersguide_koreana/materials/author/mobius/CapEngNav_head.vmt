@@ -1,8 +1,0 @@
-LightmappedGeneric
-{
-
-	$baseTexture 	"author/mobius/CapEngNav_head"
-	$surfaceprop	no_decal
-	$selfillum		1
-
-}

@@ -3,7 +3,7 @@
 Go
 {
 	[color f8fc25] 
-좋아, 거기 가만히 있어.
+좋아. 거기 가만히 있어.
 	[wait 2 sec]
 이 방 저편에, 의자에 앉아있는 여자는 동물전문 사진작가야.
 	[wait 1 sec]
@@ -76,7 +76,7 @@ speak2
 	[color ffffff] 
 	Opt1: 나 지금 정말정말 무서운데.[Play respondD]
 	Opt2: 전 당신이 좋아요. [Play respondD]
-	Opt3: 제 모든 꿈과 희망은 이거예요. 그게 뭐냐면... [Play respondD]
+	Opt3: 제 모든 꿈과 소망들은 이런건데요... 그게 뭐냐면... [Play respondD]
 }
 
 respondD

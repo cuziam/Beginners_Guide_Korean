@@ -13,7 +13,7 @@ counselor1
 counselor2
 {
 	[color f8fc25] Opt1: 음 지금 당장 당신에게 말해드리죠. '힘들어보이면, 그건 옳은 답이 아니다.' [wait 2 sec] [play counselor3]
-	[color 585a58] Opt2: 아직 너를 사랑해. 네가 나를 차갑게 만들었을 뿐이야. [wait 2 sec] [play counselor3]
+	[color 585a58] Opt2: 아직 너를 사랑해. 네가 나를 냉정하게 만들었을 뿐이야. [wait 2 sec] [play counselor3]
 	[color 585a58] Opt3: 홀로 남겨지는 건 분명 끔찍하겠지. [wait 2 sec] [play counselor3]
 }
 
@@ -28,7 +28,7 @@ counselor4
 {
 	[color 585a58] Opt1: 네가 날 사랑하지 않으면 넌 행복할 수 없을거라는 거 알고있어? 사랑은 너를 위한 거라고. [wait 2 sec] [play counselor5]
 	[color f8fc25] Opt2: 단 하나의 사실만을 발견하시길 바랍니다. '가장 쉬운 것이, 앞으로 향하는 가장 간단한 길이다' [wait 2 sec] [play counselor5]
-	[color 585a58] Opt3: 으. 내가 종양을 키우고 있잖아. 징그러. [wait 2 sec] [play counselor5]
+	[color 585a58] Opt3: 으. 내가 종양을 키우고 있잖아. 징그러워. [wait 2 sec] [play counselor5]
 }
 
 

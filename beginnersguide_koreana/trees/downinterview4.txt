@@ -10,8 +10,8 @@ Text1
 
 Response1
 {
-	[color ffcc00] Opt1: 맞아요, 어떻게 풀었는지 알고싶나요? [Play 1a]
-	[color ffcc11] Opt2: 아니요, 저는 줄곧 여기에 있었는걸요. [Play 2a]
+	[color ffcc00] Opt1: 맞아요. 어떻게 풀었는지 알고싶나요? [Play 1a]
+	[color ffcc11] Opt2: 아니요. 저는 줄곧 여기에 있었는걸요. [Play 2a]
 }
 
 1a
@@ -32,7 +32,7 @@ Response1
 2a
 {
 		[Wait 2 sec]
-	[fire speak1 trigger] 언젠가 가서 그 퍼즐을 보길 권해요. 그 퍼즐은 풀라고 있는게 아니예요, 하지만 중간의 검은 공간에 앉아 있을 수는 있죠.
+	[fire speak1 trigger] 언젠가 가서 그 퍼즐을 보길 권해요. 그 퍼즐은 풀라고 있는게 아니예요. 하지만 중간의 검은 공간에 앉아 있을 수는 있죠.
 		[Wait 3 sec]
 	[fire listen1 trigger] [Play 2aResponse]
 }
@@ -83,7 +83,7 @@ final3
 final4
 {
 		[Wait 2 sec]
-	[fire speak1 trigger] 잘은 모르겠어요. 하지만 제가 추측해보면, 푸는데 걸린 시간 만큼 당신이 발견한 것이 가치있지는 않을 거라는거예요.
+	[fire speak1 trigger] 잘은 모르겠어요. 하지만 제 생각엔, 푸는데 걸린 시간 만큼 당신이 발견한 것이 가치있지는 않을 거라는거예요.
 		[Wait 3 sec]
 	곧 이 퍼즐을 다시 풀 기회가 있을거예요.
 		[Wait 3 sec]
@@ -95,7 +95,7 @@ final4
 final5
 {
 		[Wait 2 sec]
-	[fire speak1 trigger] 오 정말 평화롭기 때문이죠. 처음에는 이런 식으로 느껴지지 않겠지만, 때가 되면 이렇게 생각하게 될겁니다.
+	[fire speak1 trigger] 오 정말 평화롭기 때문이죠. 처음에는 그런 식으로 느껴지지 않겠지만, 때가 되면 이렇게 생각하게 될겁니다.
 		[Wait 3 sec]
 	결국에는 말이죠.
 		[Wait 3 sec]
@@ -107,7 +107,7 @@ final5
 final6
 {
 		[Wait 2 sec]
-	[fire speak1 trigger] 가서 그 어둠 속에 잠시동안만 있어보세요. 처음엔 그 어둠이 별로겠지만, 점점 좋아하게 될겁니다.
+	[fire speak1 trigger] 가서 그 어둠 속에 잠시동안만 있어보세요. 처음엔 그 어둠이 별로겠지만 점점 좋아하게 될겁니다.
 		[Wait 3 sec]
 	결국에는 말이죠.
 		[Wait 3 sec]

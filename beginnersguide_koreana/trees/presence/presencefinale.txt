@@ -84,7 +84,7 @@ game5
 coda5
 {
 	Opt1: 무언가를 만들어낼 때마다, 나 스스로에 대해 기분이 좋아져. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
-	Opt2: 무언가 만드는 일을 절대로 멈추지마. 그러면 절대 기분이 나빠질 일이 없어. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt2: 무언가 만드는 일을 절대로 멈추지마. 그러면 절대 기분나빠질 일이 없어. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
 	Opt3: 간단한 해답이네. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
 }
 
@@ -94,7 +94,7 @@ game6
 	[wait 2 sec]
 완벽해.
 	[wait 2 sec]
-환상적이구만.
+환상적이야.
 	[wait 2 sec]
 [play coda6a]
 }
@@ -111,7 +111,7 @@ game6a
 	[wait 2 sec]
 인내심을 가져. 나를 믿어야만 해.
 	[wait 2 sec]
-이게 잘 먹혀들거라고 약속할께.
+이게 잘 먹혀들거라고 약속할게.
 	[wait 2 sec]
 제발. 계속해봐.
 	[wait 2 sec]
@@ -120,7 +120,7 @@ game6a
 
 coda6
 {
-	Opt1: 고통은 자연스럽게 사라져 버릴꺼야 [fire bustawalls5 trigger] [play game7]
+	Opt1: 고통은 자연스럽게 사라져 버릴거야 [fire bustawalls5 trigger] [play game7]
 	Opt2: 내 작품을 위해 희생하는 건 100% 가치가 있어.  [fire bustawalls5 trigger] [play game7]
 	Opt3: 결국엔 다 의미가 있을거야. [fire bustawalls5 trigger] [play game7]
 }

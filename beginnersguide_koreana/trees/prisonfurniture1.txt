@@ -20,7 +20,7 @@ table
 	[fire makePrison_prop_glasstable enable] [fire glass_table_boop playsound] [fire table1outline disable]
 	[clear]
 	[wait 3 sec]
-	좋아, 이제 벽에는 무엇을 놓을까?
+	좋아. 이제 벽에는 무엇을 놓을까?
 	[wait 2 sec]
 	[play response2]
 }

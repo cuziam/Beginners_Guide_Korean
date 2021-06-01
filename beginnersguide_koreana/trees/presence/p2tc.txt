@@ -40,7 +40,7 @@ p1s
 {
 [fire door1open trigger]
 	[wait 2 sec]
-좋아, 이제는?
+좋아. 이제는?
 	[wait 3 sec]
 [play p2n]
 }
@@ -70,9 +70,9 @@ p2fB
 
 p2nb
 {
-	Opt1: 그러면, 첫번째 문을 닫아줘. [play p2s]
-	Opt2: 그러면, 첫번째 문을 열어줘. [play p2fA]
-	Opt3: 그러면, 안에 있는 스위치를 눌러줘. [play p2fB]
+	Opt1: 그러면 첫번째 문을 닫아줘. [play p2s]
+	Opt2: 그러면 첫번째 문을 열어줘. [play p2fA]
+	Opt3: 그러면 안에 있는 스위치를 눌러줘. [play p2fB]
 }
 
 p2s

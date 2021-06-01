@@ -92,8 +92,8 @@ p1s
 
 p2n
 {
-	Opt1: 이제, 첫번째 문을 닫아야 해.[play p2s]
-	Opt2: 이제, 첫번째 문을 열어야 해. [play p2fA]
+	Opt1: 이제 첫번째 문을 닫아야 해.[play p2s]
+	Opt2: 이제 첫번째 문을 열어야 해. [play p2fA]
 	Opt3: 이제 안쪽의 스위치를 눌러야 해. [play p2fB]
 }
 
@@ -115,9 +115,9 @@ p2fB
 
 p2nb
 {
-	Opt1: 그러면, 첫번째 문을 닫아. [play p2s]
-	Opt2: 그러면, 첫번째 문을 열어. [play p2fA]
-	Opt3: 그러면, 안쪽의 스위치를 눌러. [play p2fB]
+	Opt1: 그러면 첫번째 문을 닫아. [play p2s]
+	Opt2: 그러면 첫번째 문을 열어. [play p2fA]
+	Opt3: 그러면 안쪽의 스위치를 눌러. [play p2fB]
 }
 
 p2s

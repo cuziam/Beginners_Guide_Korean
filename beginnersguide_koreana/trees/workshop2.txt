@@ -23,11 +23,11 @@ Go
 		[wait 3 sec]
 	[fire lecture_turn2 trigger]지금 당장에, 당신의 삶속에서 누가 당신을 보고 저렇게 말해주나요?
 		[wait 3 sec]
-	[fire lecture_turn trigger]자기자신에게 역겨움을 느끼게 만들만큼, 정말 재능있는 누군가를 알고있나요?
+	[fire lecture_turn trigger]자기자신에게 역겨움을 느끼게 만들만큼 정말 재능있는 누군가를 알고있나요?
 		[wait 4 sec]
 	[fire lecture_turn2 trigger]그 누군가와 자신을 비교하며, 당신은 스스로를 쓸모없고
 		[wait 2 sec]
-	[fire lecture_turn trigger]이기적이고,
+	[fire lecture_turn trigger]이기적이고
 		[wait 1 sec]
 	[fire lecture_turn2 trigger]은혜도 모르는 놈이라고 느끼게되죠.
 		[wait 1 sec]

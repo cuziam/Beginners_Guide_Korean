@@ -3,7 +3,7 @@
 Go
 {
 	[color 00e53b] 
-	오 이런, 누가 쇼파 옆에 음료수를 엎지른거 같아.
+	오 이런. 누가 쇼파 옆에 음료수를 엎지른거 같아.
 		[wait 2 sec]
 	거기 있으면 그것좀 닦아줄래?
 [fire spill_continue1 enable]

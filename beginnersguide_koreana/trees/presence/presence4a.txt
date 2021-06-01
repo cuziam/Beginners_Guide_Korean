@@ -7,7 +7,7 @@ game1
 	[wait 2 sec]
 어떤 어려운 퍼즐이 기계를 지키고 있거든.
 	[wait 2 sec]
-그 퍼즐을 풀 수 있도록 네가 도와주면, 기계를 찾아낼 수 있을거야.
+그 퍼즐을 풀 수 있도록 네가 도와준다면 기계를 찾아낼 수 있을거야.
 	[wait 2 sec]
 콜?
 	[wait 3 sec]
@@ -19,7 +19,7 @@ dialogue1
 	[color ffffff]
 	Opt1: 콜. [fire block6fadeout trigger] [play transition1]
 	Opt2: 콜. [fire block6fadeout trigger] [play transition1]
-	Opt3! 내가 뭐라하든 상관없잖아, 그렇지 않아? 우린 어떻게든 거기 갈껀데. 그렇지?  [say2 콜.]  [fire block6fadeout trigger] [play transition1]
+	Opt3! 내가 뭐라하든 상관없잖아. 그렇지 않아? 우린 어떻게든 거기 갈건데. 그렇지?  [say2 콜.]  [fire block6fadeout trigger] [play transition1]
 }
 
 transition1

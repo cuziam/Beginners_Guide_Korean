@@ -9,7 +9,7 @@ Go
 	[wait 3 sec]
 우리는 '전문가들의 모임'에 와 있어.
 	[wait 3 sec]
-먼저, 여기 벽에 기대는 걸로 시작할꺼야.
+먼저, 여기 벽에 기대는 걸로 시작할거야.
 	[wait 1 sec]
 [fire wall_on trigger]
 	[wait 1 sec]

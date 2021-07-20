@@ -1,0 +1,4 @@
+0 3.73 To make all of these games, Coda is using an engine called Source.
+4.34 9.67 Like all engines, Source has certain things that it does well and it has certain things it does poorly.
+10.21 15.34 One of the things that it does very well is boxy, linear corridors.
+15.61 23.33 That is why so many of Coda's games are set in these large flat empty rooms, is just because he's working with what the engine does well.

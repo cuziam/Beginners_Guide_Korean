@@ -1,0 +1,4 @@
+0 4.76 Once you've been slowed to absolute crawl, the door at the top of the stairs opens.
+5.09 10.37 So why, if Coda's not showing these games to anyone, why bother opening the door at all?
+11.04 16.69 Well, to show you I'm modifying the game here so that when you press 'Enter' it'll bring you back up to full speed,
+16.8 18.51 so you can enter the door for yourself.

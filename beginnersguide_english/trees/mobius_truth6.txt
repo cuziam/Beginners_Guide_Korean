@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+You're doing it! It's working!
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

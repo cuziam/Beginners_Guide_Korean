@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Much nicer, that's the table I want to see.
+		[wait 2 sec]
+	Now would you please run into the bedroom and make the bed?
+		[wait 1 sec]
+	[fire bed_continue1 enable]
+	[wait 0.1 sec]
+	[fire bed_reset trigger]
+}
+
+
+
+[Go]

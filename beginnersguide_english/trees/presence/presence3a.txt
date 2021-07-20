@@ -1,0 +1,37 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Wait, you're looking for a machine?
+	[wait 2 sec]
+I think I know where it is!
+	[wait 2 sec]
+It isn't far.
+	[wait 4 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: What?? [fire pres5a enable] [fire block5fadeout trigger] [play transition1]
+	Opt2: You have to take me to it! [fire pres5b enable] [fire block5fadeout trigger] [play transition2]
+	Opt3: I need to see it, to know why it stopped. [fire pres5c enable] [fire block5fadeout trigger] [play transition1]
+}
+
+transition1
+{
+	[wait 4 sec]
+[fire presence4a enable]
+	[wait 1 sec]
+}
+
+transition2
+{
+	[wait 4 sec]
+[fire presence4b enable]
+	[wait 1 sec]
+}
+
+[game1]

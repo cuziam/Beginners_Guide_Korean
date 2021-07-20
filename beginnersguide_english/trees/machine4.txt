@@ -1,0 +1,28 @@
+#modern
+
+talk1
+{
+	[color ffffff] Opt1: Coda, I'll make sure your work dies here! [wait 3 sec] [play talk2a]
+	[color ffffff] Opt2: Coda, I'll make sure you are known forever! [wait 3 sec] [play talk2b]
+}
+
+talk2a
+{
+	Opt1: Isn't that what you're scared of? Having to live without your precious creations? Having to deal with yourself? [wait 3 sec] [play talk3]
+}
+
+talk2b
+{
+	Opt1: Isn't that what you're scared of? Exposed to the view of others, every day, forever? Seen in naked clarity? [wait 3 sec] [play talk3]
+}
+
+
+talk3
+{
+	[fire VO_2t trigger]
+	[wait 1 sec]
+	[clear]
+}
+
+
+[talk1]

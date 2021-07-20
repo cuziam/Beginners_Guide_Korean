@@ -1,0 +1,106 @@
+Go
+{
+	[color f15822] 
+	What furniture ought to go in the center of the room?
+		[wait 3 sec]
+	[play response1]
+}
+
+response1
+{
+	[color ffcc00] 
+	Opt1: How about a TV with surround sound. [Play table]
+	Opt2: A refridgerator. [Play table]
+	Opt3: Put a giant hole in the ground. [Play table]
+}
+
+table
+{
+	[wait 1 sec]
+	[fire makePrison_prop_glasstable enable] [fire glass_table_boop playsound] [fire table1outline disable]
+	[clear]
+	[wait 3 sec]
+	Okay, now what about along the wall of the room?
+	[wait 2 sec]
+	[play response2]
+}
+
+response2
+{
+	Opt1: Let's put a huge picture of a horse. [Play couch]
+	Opt2: I'd really like a washing mashine. [Play couch]
+	Opt3: 10 stoves lined up along the wall. [Play couch]
+}
+
+couch
+{
+	[wait 2 sec]
+	[fire makePrison_prop_sofa01 enable]
+	[fire couch1outline disable]
+	[fire couch_place_boop playsound]
+	[fire makePrison_prop_sofa02 enable]
+	[clear]
+	[wait 3 sec]
+	I think we should-light up this room a bit.
+	[wait 2 sec]
+	[play response3]
+}
+
+response3
+{
+	Opt1: A skylight. Full-ceiling window. Let's open this baby up. [Play light]
+	Opt2: I'm thinking 10x12 recessed electric 6-in. soft LED ceiling lights with fluorescent trim. [Play light]
+	Opt3: We'll put live tesla coils in each corner. Yeah. [Play light]
+}
+
+light
+{
+	[wait 2 sec]
+	[fire makePrison_relay_lamp trigger] [fire lampoutline disable] [fire lamp_place_boop playsound]
+	[clear]
+	[wait 3 sec]
+	And a table! You need a table!
+	[wait 2 sec]
+	[play response5]
+}
+
+response4
+{
+	Opt1: We could have some filing cabinets here. [fire VO_8 start] [Play shelves]
+	Opt2: I'm pretty sure none of these choices make any difference. [fire VO_8 start] [Play shelves]
+	Opt3: Yeah! Like a safe! A huge safe with a huge padlock! [fire VO_8 start] [Play shelves]
+}
+
+shelves
+{
+	[wait 2 sec]
+	[fire makePrison_prop_shelves enable]
+	[clear]
+	[wait 3 sec]
+	And a table! You need a table!
+	[wait 2 sec]
+	[play response5]
+}
+
+response5
+{
+	Opt1: Who are you? Where exactly are you doing this from? [Play final]
+	Opt2: I'm pretty sure none of my choices are making any difference. [Play final]
+	Opt3: Tables were invented in 1935. [Play final]
+}
+
+final
+{
+	[wait 2 sec]
+	[fire makePrison_prop_counter enable] [fire shelfoutline disable] [fire table_place_boop playsound]
+	[clear]
+	[wait 2 sec]
+	[fire makePrison_relay_expand trigger]
+	[wait 5 sec]
+	[fire VO_3 start]
+	[wait 12 sec]
+	[fire end_furniture_questions trigger]
+}
+
+
+[Go]

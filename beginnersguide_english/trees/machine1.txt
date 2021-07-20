@@ -1,0 +1,44 @@
+#modern
+
+Text1
+{
+	[color 747774]
+	[fire guardtalk1 trigger]Ma'am! Glad to see you've arrived safely.
+		[wait 2 sec]
+	We've captured The Machine, it's waiting for you now.
+		[wait 2 sec]
+	You can begin the interrogation whenever you like.
+		[wait 2 sec]
+	[play Response1]
+	
+}
+
+Response1
+{
+	[color ffffff] Opt1: I intend to be quick. [Play text2]
+	[color ffffff] Opt2: I intend to be quiet. [Play text2]
+	[color ffffff] Opt3: I intend to be brutal. [Play text2]
+}
+
+text2
+{
+	[wait 2 sec]
+[fire guardtalk2 trigger]Very good.
+	[wait 2 sec]
+Just be warned that someone called the press, so we might have a bit of attention on this one.
+	[wait 3 sec]
+Also, one more thing that you should know about the machine:
+	[wait 2 sec]
+It calls itself Coda.
+	[wait 4 sec]
+[fire door_open trigger]
+	[wait 1 sec]
+[clear]
+	[wait 1 sec]
+}
+
+
+
+
+
+[Text1]

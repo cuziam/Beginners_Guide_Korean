@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+
+	$baseTexture 	"author/mobius/blind_head"
+	$surfaceprop	no_decal
+	$selfillum		1
+
+}

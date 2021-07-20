@@ -1,0 +1,38 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+Oh goodness, those pillows over on the couch are a real mess.
+	[wait 3 sec]
+Would you go over and straighten them up a bit? Can't have these folks coming home to a messy couch.
+[fire pillows_continue3 enable]	
+	[wait 0.1 sec]
+[fire pillows_reset trigger]
+	[wait 1 sec]
+}
+
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+#modern
+
+Go
+{
+	[color 00e53b]
+	Last I checked the tub needed a cleaning.
+		[wait 2 sec]
+	How about you scrub it down as best you can.
+		[wait 1 sec]
+	[fire tub_continue1 enable]
+	[wait 0.1 sec]
+	[fire tub_reset trigger]
+		[wait 1 sec]
+	No need to be perfect, we're all just human.
+}
+
+
+
+[Go]

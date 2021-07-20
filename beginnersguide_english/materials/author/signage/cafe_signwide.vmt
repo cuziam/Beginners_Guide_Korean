@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$baseTexture "author/signage/cafe_signwide"
+$decal 1
+$decalscale 0.03
+$translucent 1
+}

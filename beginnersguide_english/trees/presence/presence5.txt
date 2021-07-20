@@ -1,0 +1,13 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Perfect.
+	[wait 2 sec]
+Come along, I'll show it to you.
+	[wait 1 sec]
+}
+
+
+[game1]

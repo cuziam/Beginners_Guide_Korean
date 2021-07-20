@@ -1,0 +1,76 @@
+#modern
+
+counselor1
+{
+	[color f8fc25] Opt1: This is the key: how do I achieve it with no effort. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt2: On the way to work I told an elderly person to start contributing to society. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt3: Kids should not follow their dreams. [wait 2 sec] [play counselor2]
+}
+
+
+
+
+counselor2
+{
+	[color f8fc25] Opt1: Well let me tell you right now: If it isn't effortless, then it's not the right answer. [wait 2 sec] [play counselor3]
+	[color 585a58] Opt2: I still love you, it's just that you make me feel cold on the inside. [wait 2 sec] [play counselor3]
+	[color 585a58] Opt3: Being alone must be awful. [wait 2 sec] [play counselor3]
+}
+
+counselor3
+{
+	[color 585a58] Opt1: Thank goodness all of you perceive me as being wise and intelligent!  [wait 2 sec] [play counselor4]
+	[color 585a58] Opt2: Drinking is not hurting my life.[wait 2 sec] [play counselor4]
+	[color f8fc25] Opt3: If you are torturing yourself trying to find the right solutions for your life, you're not doing it right. [wait 2 sec] [play counselor4]
+}
+
+counselor4
+{
+	[color 585a58] Opt1: Do you understand that you won't be happy until you love me? This is for you. [wait 2 sec] [play counselor5]
+	[color f8fc25] Opt2: Seek out only one thing: what is the easiest, simplest path forward. [wait 2 sec] [play counselor5]
+	[color 585a58] Opt3: Ew. I'm developing a cyst. Gross. [wait 2 sec] [play counselor5]
+}
+
+
+counselor5
+{
+	[color 585a58] Opt1: HAHAHA JUST KIDDING. [wait 2 sec] [play counselor7]
+	[color 585a58] Opt2: Anyone want to do some ecstasy after this? [wait 2 sec] [play counselor7]
+	[color f8fc25] Opt3: There is no truth. There is no path. [wait 2 sec] [play counselor7]
+}
+
+
+
+counselor7
+{
+	[color 585a58] Opt1: What if I'm not a good teacher...  [wait 2 sec] [play counselor9]
+	[color f8fc25] Opt2: Do what is easiest. Do what is simplest. Feel what is true. [wait 2 sec] [play counselor9]
+	[color 585a58] Opt3: HOLY SHIT you guys something is coming out of the back of the room! LOOK OUT!! [wait 2 sec] [play counselor9]
+}
+
+counselor9
+{
+	[color f8fc25] Opt1: Nothing. No one. [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt2: It's coming for you! It's going to destroy you! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt3: Everyone run! RUN!!! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+}
+
+counselor10
+{
+	[color f8fc25] Opt1: Perfection. [play wait]
+	[color f8fc25] Opt2: Perfection. [play wait] 
+	[color f8fc25] Opt3: Perfection. [play wait]
+}
+
+wait
+{
+	
+	[wait 1 sec]
+}
+
+[counselor1]
+
+
+
+
+

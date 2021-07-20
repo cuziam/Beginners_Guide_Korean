@@ -1,0 +1,5 @@
+0 3.01 Except that all of the walls of the maze are invisible.
+3.38 9.65 And then every time you touch one of the walls there's this awful flashing and noise, so the experience is really miserable.
+10.14 15.94 The game goes beyond not being meant to be played, it actually seems to despise the player for trying to play it at all.
+17.26 24.08 But I do want to show you the rest of the level so when you're ready to continue, press the 'Use' key on your gamepad
+24.17 25.65 and I'll put a bridge over the maze.

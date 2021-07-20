@@ -1,0 +1,85 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+	[fire lecture_turn trigger]Why did you come here today?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Was it to improve your life?
+		[wait 3 sec]
+	[fire lecture_turn trigger]Was it to get a better job?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Was it to make your relationships more meaningful?
+		[wait 2 sec]
+	[fire lecture_turn trigger]No.
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]You came here to become PERFECT.
+		[wait 4 sec]
+[fire teleport1 enable][fire lecture_turn trigger]This workshop is going to teach you how to be perfect. 
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]I want your friends, the people in your life to look at you and think:
+		[wait 3 sec]
+	[fire lecture_turn trigger]"wow, this person is a better human being than I am."
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Right now, who do you think about that way in your own life?
+		[wait 3 sec]
+	[fire lecture_turn trigger]Who do you know who is so well developed as a person that they make you feel disgusted with yourself?
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]Compared to whom, you feel useless.
+		[wait 2 sec]
+	[fire lecture_turn trigger]Selfish.
+		[wait 1 sec]
+	[fire lecture_turn2 trigger]Ungrateful.
+		[wait 1 sec]
+	[fire lecture_turn trigger]I intend to make you into that person.
+		[wait 2 sec]
+	[fire telejitter enable]
+		[wait 1 sec]
+[fire teleport2 enable][fire lecture_turn2 trigger]Perfection IS within your grasp.
+		[wait 4 sec]
+	[fire lecture_turn trigger]And the question is not how do we do it, but how do we do it EFFORTLESSLY.
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]This is easy.
+		[wait 2 sec]
+	[fire lecture_turn trigger]It is so easy.
+		[wait 2 sec]
+	[fire lecture_turn2 trigger]It is so easy.
+		[wait 2 sec]
+	[fire lecture_turn trigger]Being perfect is effortless.
+		[wait 4 sec]
+[fire transition trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

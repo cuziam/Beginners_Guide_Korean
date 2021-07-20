@@ -1,0 +1,74 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+...
+	[wait 2 sec]
+Earlier, when I said I had a really cheesy thought...
+	[wait 3 sec]
+I was going to say that it occurs to me that one's house is a lot like one's soul.
+	[wait 3 sec]
+You take care of it, and it takes care of you.
+	[wait 2 sec]
+Heh.
+	[wait 2 sec]
+Don't know why I felt so weird about saying that.
+	[wait 2 sec]
+[fire VO_5delay trigger]
+[play talk1]
+}
+
+talk1
+{
+[color ffffff]
+Opt1: I get it, that's a weird thing to say to someone you just met. [play talk2]
+Opt2: Yeah, you're right, that's pretty cheesy. [play talk2]
+Opt3: But there's a bit of truth in it, no? [play talk2]
+}
+
+
+talk2
+{
+	[color 00e53b] 
+	[wait 2 sec]
+...
+	[wait 2.5 sec]
+Anyway.
+	[wait 1.5 sec]
+So.
+	[wait 1.5 sec]
+Housekeeping.
+	[wait 1.5 sec]
+Let's keep doing this.
+	[wait 1.5 sec]
+Tub. Would you please clean the tub.
+	[wait 2 sec]
+[fire tub_continue2 enable]
+	[wait 0.1 sec]
+Thanks.[fire tub_reset trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

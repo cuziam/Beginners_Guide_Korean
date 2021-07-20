@@ -1,0 +1,31 @@
+#modern
+
+game1
+{
+	[color f85078] 
+I can do that, but there's a problem.
+	[wait 2 sec]
+It's guarded by a difficult puzzle.
+	[wait 2 sec]
+If you can help me solve the puzzle, we'll find the machine.
+	[wait 2 sec]
+Deal?
+	[wait 3 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: Deal. [fire block6fadeout trigger] [play transition1]
+	Opt2: Deal. [fire block6fadeout trigger] [play transition1]
+	Opt3! It doesn't matter what I say, does it? We're going to end up there one way or another. Right? [say2 Deal.]  [fire block6fadeout trigger] [play transition1]
+}
+
+transition1
+{
+	[wait 1 sec]
+}
+
+
+[game1]

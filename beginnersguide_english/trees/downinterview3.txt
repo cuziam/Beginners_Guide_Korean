@@ -1,0 +1,218 @@
+﻿start
+{
+	[color f15822]
+	[fire speak1 trigger] You there! Did you come from up above? What was up there?
+		[Wait 5 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: Yes, there was a world stamped with whiteness. [Play 1a]
+	[color ffcc11] Opt2: Yes, there was an enormous prison I spent hours in. [Play 1a]
+	[color ffcc22] Opt3: Yes, there were these floating colored blocks. [Play 1a]
+}
+
+1a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] That's the world above! You've been there!
+		[Wait 3 sec]
+	Now this is important: Did you have to get through a puzzle with two doors and switches?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse]
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: Yes I did! That was literally the last thing I did before coming here! [Play 2a]
+	[color ffcc11] Opt2: No I don't remember having to go through any puzzle. [Play 2b]
+	[color ffcc22] Opt3: I'd prefer not to tell you. After all, we've only just met. [Play 2c]
+}
+
+2a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Again, perfect! Now please, tell us how you solved it! Tell us the solution! Tell us how to get to the other side.
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: I...I don't remember how I solved it. I'm trying to remember, but I can't. [Play downfinala]
+	[color ffcc11] Opt2: I didn't solve it, someone else let me in. [Play downfinalb]
+	[color ffcc22] Opt3: Trust me, you don't want to go over there... [Play downfinalc]
+}
+
+2b
+{
+		[wait 2 sec]
+	[fire speak1 trigger] You don't? But how did you get here! The puzzle is the only way!
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2bResponse]
+}
+
+2bResponse
+{
+	[color ffcc00] Opt1: There are other ways in and out. [Play downfinald]
+	[color ffcc11] Opt2: I don't remember how I got here. [Play downfinala]
+	[color ffcc22] Opt3: Wait, yes, I did solve it! I am the champion of solving puzzles! I can go anywhere I please! [Play downfinale]
+}
+
+
+2c
+{
+		[wait 2 sec]
+	[fire speak1 trigger] What?? But you...you don't understand. We are trapped here, that puzzle is our only escape, we need to get through it!
+		[Wait 2 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2cResponse]
+}
+
+
+2cResponse
+{
+	[color ffcc00] Opt1: You think you want to get through, but trust me, you don't. [Play downfinalc]
+	[color ffcc11] Opt2: Let me describe it for you, let me tell you all about what is over there. [Play downfinalf]
+	[color ffcc22] Opt3: Alright, I will tell you how to solve it. [Play downfinalg]
+}
+
+
+
+
+
+downfinala
+{
+		[wait 2 sec]
+	[fire speak1 trigger] You must think harder, please! Try hard to remember!
+		[Wait 2 sec]
+	It is so important that we get out of here, we must escape this prison!
+		[Wait 2 sec]
+	Can you think harder?
+		[Wait 2 sec]
+	There must be something more.
+		[Wait 2 sec]
+	Please, tell us how to reach the end.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+downfinalb
+{
+		[wait 2 sec]
+	[fire speak1 trigger] You didn't solve it?
+		[Wait 2 sec]
+	So you have learned nothing.
+		[Wait 2 sec]
+	You cannot help us escape this prison.
+		[Wait 2 sec]
+	You are not the one I need.
+		[Wait 2 sec]
+	Surely there will be someone else.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalc
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Oh no, but I do! We do! We need to get there!
+		[Wait 2 sec]
+	Do you understand? It is the most important thing in the world!
+		[Wait 2 sec]
+	We have to escape this prison!
+		[Wait 2 sec]
+	There must be an ending!
+		[Wait 2 sec]
+	I promise you, there is nothing I want more!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinald
+{
+		[wait 2 sec]
+	[fire speak1 trigger] There are? But please, you must tell me! You must tell us!
+		[Wait 2 sec]
+	You don't understand, we have to get out of here, it is the most important thing!
+		[Wait 2 sec]
+	We have to get out of this prison!
+		[Wait 2 sec]
+	Can you hear me?
+		[Wait 2 sec]
+	Can you tell me how to get to the end.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinale
+{
+		[wait 2 sec]
+	[fire speak1 trigger] …
+		[Wait 2 sec]
+	No you can't.
+		[Wait 2 sec]
+	You weren't on the other side at all, you have no idea what is on the other side.
+		[Wait 2 sec]
+	You cannot help us escape this prison.
+		[Wait 2 sec]
+	You are not the one I need.
+		[Wait 2 sec]
+	Surely there will be someone else.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalf
+{
+		[wait 2 sec]
+	[fire speak1 trigger] No, that isn't possibly enough, I need to actually be there.
+		[Wait 2 sec]
+	I cannot simply be told what it is.
+		[Wait 2 sec]
+	I must see it myself.
+		[Wait 2 sec]
+	I must escape this prison.
+		[Wait 2 sec]
+	There must be an ending!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalg
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Wonderful!
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	Well?
+		[Wait 2 sec]
+	What is it? What's the answer?
+		[Wait 2 sec]
+	Please, speak to me tell me how to escape! Tell me how to be free of this prison!
+		[Wait 2 sec]
+	I must know! It's the most important thing!
+		[Wait 2 sec]
+	There must be an ending!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+
+[start]

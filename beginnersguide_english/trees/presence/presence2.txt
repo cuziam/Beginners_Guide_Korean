@@ -1,0 +1,52 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Is that a person? How lovely!
+	[wait 2 sec]
+It's been a long time since I talked to anyone.
+	[wait 2 sec]
+...
+	[wait 2 sec]
+What's wrong? You look lost.
+	[wait 4 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: I'm completely out of ideas. [fire pres4a enable] [fire block3fadeout trigger] [play transition1]
+	Opt2: When I try to create I feel empty. [fire pres4b enable] [fire block3fadeout trigger] [play transition2]
+	Opt3: I have nothing left to give to my work. [fire pres4c enable] [fire block3fadeout trigger] [play transition3]
+}
+
+transition1
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition2
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition3
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+[game1]

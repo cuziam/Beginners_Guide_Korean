@@ -1,0 +1,422 @@
+past1
+{
+[color f15822]
+Hello?
+[wait 2 sec]
+Who is this?
+[wait 3 sec]
+[play future1]
+}
+
+future1
+{
+[color ffcc00] 
+Opt1: Hey! It's me! I'm you from after you escape the prison! [fire dial1 playsound] [play past2]
+}
+
+past2
+{
+[wait 2 sec]
+You're me?
+[wait 2 sec]
+...
+[wait 2 sec]
+So you were trapped in this prison too?
+[wait 3 sec]
+[fire 18delay trigger]
+[play future2]
+}
+
+future2
+{
+Opt1: Yep, I was in the furniture maze. [fire dial1 playsound] [play past3]
+Opt2: Yep, I was in the escape tutorial. [fire dial2 playsound] [play past3]
+Opt3: Yep, I was in the reverse prison. [fire dial3 playsound] [play past3]
+}
+
+past3
+{
+[wait 2 sec]
+That's where I am right now!
+[wait 2 sec]
+Oh I'm so glad to know that I get out eventually!
+[wait 3 sec]
+What's it like to escape?
+[wait 3 sec]
+[play future3]
+}
+
+future3
+{
+Opt1: Actually, I'm already forgetting what being in the prison was like... [fire dial1 playsound] [play past4a]
+Opt2: It's strange, but in a way I kind of miss being in the prison. [fire dial2 playsound] [play past4b]
+Opt3: It feels like being completely still and wildly in motion at the same time. [fire dial3 playsound] [play past4c]
+}
+
+past4a
+{
+[wait 2 sec]
+Really? How long has it been since you got out?
+[wait 3 sec]
+[play future4a]
+}
+
+future4a
+{
+Opt1: Years! Like, I've been standing right here working up the nerve to call you! [fire dial1 playsound] [play past5a]
+Opt2: Only a few minutes, but somehow it's already fuzzy, kind of like it never happened. [fire dial2 playsound] [play past5b]
+}
+
+past5a
+{
+[wait 2 sec]
+Years?? I haven't been here for years, I don't think... 
+[wait 3 sec]
+[play future5a]
+}
+
+future5a
+{
+Opt1: This is really hard to admit, but I was afraid to make this call. [fire dial1 playsound] [play transition]
+Opt2: Time moves differently for you than it does for me. [fire dial2 playsound] [play transition]
+Opt3: Maybe the prison is just affecting you in a strange way. [fire dial3 playsound] [play transition]
+}
+
+past5b
+{
+[wait 2 sec]
+But this is the worse, most desperate thing I've ever been through!
+[wait 3 sec]
+How could you possibly forget it? 
+[wait 2 sec]
+[play future6]
+}
+
+future6
+{
+Opt1: Haha, I promise it's not as bad right now as you think it is. [fire dial1 playsound]  [play transition]
+Opt2: You don't ever forget it, you just stop identifying with it. [fire dial2 playsound]  [play transition]
+Opt3: Anything can seem infinite when you're drenched in it. [fire dial3 playsound]  [play transition]
+}
+
+past4b
+{
+[wait 2 sec]
+Why? Was there anything about it that you felt good about?
+[wait 4 sec]
+Being here sucks!
+[wait 2 sec]
+[play future7]
+}
+
+future7
+{
+Opt1: True, maybe I only like things once I don't have them any more. [fire dial1 playsound] [play past7a]
+Opt2: It was comfortable, I knew its limits, I knew my place. [fire dial2 playsound] [play past7b]
+Opt3: But don't you feel excited about getting out? The promise of freedom? [fire dial3 playsound] [play past7c]
+}
+
+past7a
+{
+[wait 2 sec]
+I do that too I guess...
+[wait 2 sec]
+But is that just how I'm going to be forever?
+[wait 2 sec]
+I'd really like to change that.
+[wait 2 sec]
+[play future8]
+}
+
+future8
+{
+Opt1: Maybe? [fire dial1 playsound]  [play transition]
+Opt2: No, I think you'll find a way to change. [fire dial2 playsound]  [play transition]
+}
+
+past7b
+{
+[wait 2 sec]
+Is that good though?
+[wait 2 sec]
+It's comfortable, but it's inhuman.
+[wait 2 sec]
+I couldn't live this way...
+[wait 2 sec]
+[play future9]
+}
+
+future9
+{
+Opt1: You don't need to! You just need to be patient. [fire dial1 playsound]  [play transition]
+Opt2: Having limits is way more important than you probably realize right now... [fire dial2 playsound]  [play transition]
+Opt3: You'll see what I'm talking about when you've been there for a while longer. [fire dial3 playsound]  [play transition]
+}
+
+past7c
+{
+[wait 2 sec]
+Excited? It's the only thing that matters to me!
+[wait 3 sec]
+It's the only thing keeping me going!
+[wait 2 sec]
+"Excited" doesn't really do it justice.
+[wait 2 sec]
+[play future10]
+}
+
+future10
+{
+Opt1: Exactly! You have something you care about! Something to look forward to. [fire dial1 playsound]  [play transition]
+Opt2: You won't always have something that you care about as much as this. [fire dial2 playsound] [play transition]
+Opt3: Just be with that enthusiasm for a bit, let it ooze into your flesh. [fire dial3 playsound]  [play transition]
+}
+
+past4c
+{
+[wait 2 sec]
+Do you feel any different?
+[wait 2 sec]
+Some times I'm scared I'll get out and then things will be exactly the same as before.
+[wait 4 sec]
+[play future11]
+}
+
+future11
+{
+Opt1: No, I'm really the same person now as I was back then. [fire dial1 playsound] [play past11a]
+Opt2: It actually does change, I don't feel like the same person at all. [fire dial2 playsound]  [play past11b]
+}
+
+past11a
+{
+[wait 2 sec]
+Oh no, that's awful!
+[wait 2 sec]
+That's the worst thing I can imagine!
+[wait 2 sec]
+[play future12]
+}
+
+future12
+{
+Opt1: Don't worry! It's actually not a bad thing! I promise. [fire dial1 playsound] [play transition]
+Opt2: Well, you get something else in exchange. [fire dial2 playsound] [play transition]
+Opt3: The problem is that you don't actually know who you are right now. [fire dial3 playsound] [play transition]
+}
+
+past11b
+{
+[wait 2 sec]
+Oh good!
+[wait 2 sec]
+That's so nice to hear.
+[wait 2 sec]
+That makes me feel...really happy.
+[wait 2 sec]
+[play future13]
+}
+
+future13
+{
+Opt1: Age just kind of does that, you know? [fire dial1 playsound] [play transition]
+Opt2: I'm still me, but I'm not somehow. It's hard to describe. [fire dial2 playsound] [play transition]
+Opt3: Remember to enjoy being who you are right now, it won't last. [fire dial3 playsound] [play transition]
+}
+
+transition
+{
+[wait 2 sec]
+Wait, if you're me, then did you get a call from another version of you when you were trapped?
+[wait 5 sec]
+[play future100]
+}
+
+future100
+{
+Opt1: No, I think I'm the first person to call back. [fire dial1 playsound] [play past101]
+Opt2: Yes, I did get a call, that's how I escaped. [fire dial2 playsound] [play past102]
+}
+
+past101
+{
+[wait 2 sec]
+Then can you tell me how to get out?
+[wait 2 sec]
+Maybe I can come find you!
+[wait 2 sec]
+What do I have to do?
+[wait 2 sec]
+[play future101]
+}
+
+future101
+{
+Opt1: To get out, all you have to do is be sincere. [fire dial1 playsound] [play sincere1]
+Opt2: To get out, you need to tell me how you feel right now. [fire dial2 playsound] [play feel1]
+Opt3: To get out, just talk with me for a bit. [fire dial3 playsound] [play talk1]
+}
+
+sincere1
+{
+[wait 2 sec]
+...what?
+[wait 2 sec]
+That will free me?
+[wait 2 sec]
+How does that work?
+[wait 2 sec]
+[play sincere3]
+}
+
+feel1
+{
+[wait 2 sec]
+...what?
+[wait 2 sec]
+That will free me?
+[wait 2 sec]
+How does that work?
+[wait 2 sec]
+[play feel3]
+}
+
+talk1
+{
+[wait 2 sec]
+...what?
+[wait 2 sec]
+That will free me?
+[wait 2 sec]
+How does that work?
+[wait 2 sec]
+[play talk3]
+}
+
+past102
+{
+[wait 2 sec]
+What did they tell you?
+[wait 2 sec]
+What did you have to do to get out?
+[wait 2 sec]
+[play future102]
+}
+
+future102
+{
+Opt1: All they told me was to be sincere. [fire dial1 playsound] [play sincere2]
+Opt2: They asked me how I felt about being imprisoned. [fire dial2 playsound] [play feel2]
+Opt3: They just talked to me for a while. [fire dial3 playsound] [play talk2]
+}
+
+sincere2
+{
+[wait 2 sec]
+...what?
+[wait 2 sec]
+That freed you?
+[wait 2 sec]
+How does that work?
+[wait 2 sec]
+[play sincere3]
+}
+
+feel2
+{
+[wait 2 sec]
+...what?
+[wait 2 sec]
+That freed you?
+[wait 2 sec]
+How does that work?
+[wait 2 sec]
+[play feel3]
+}
+
+talk2
+{
+[wait 2 sec]
+...what?
+[wait 2 sec]
+That freed you?
+[wait 2 sec]
+How does that work?
+[wait 2 sec]
+[play talk3]
+}
+
+sincere3
+{
+Opt1: Listen, you can't know until you're out, but I promise it works. [fire dial1 playsound] [play sincere4]
+Opt2: Just be sincere. [fire dial2 playsound] [play sincere4]
+Opt3: It will make sense. [fire dial3 playsound] [play sincere4]
+}
+
+sincere4
+{
+[wait 2 sec]
+Sincere about what? [fire 19delay trigger]
+[wait 2 sec]
+[play sincere5]
+}
+
+sincere5
+{
+Opt1: That's exactly what you need to figure out in order to escape. [fire dial1 playsound] [play ending]
+}
+
+feel3
+{
+Opt1: Listen, you can't know until you're out, but I promise it works. [fire dial1 playsound] [play feel4]
+Opt2: Just tell me how you feel. [fire dial2 playsound] [play feel4]
+Opt3: It will make sense. [fire dial3 playsound] [play feel4]
+}
+
+feel4
+{
+[wait 2 sec]
+Okay...I feel afraid that nothing will ever change. [fire 19delay trigger]
+[wait 5 sec]
+[play feel5]
+}
+
+feel5
+{
+Opt1: Go on. [fire dial1 playsound] [play ending]
+Opt2: Go on. [fire dial2 playsound] [play ending]
+Opt3: Go on. [fire dial3 playsound] [play ending]
+}
+
+talk3
+{
+Opt1: Listen, you can't know until you're out, but I promise it works. [fire dial1 playsound] [play talk4]
+Opt2: Just talk to me. [fire dial2 playsound] [play talk4]
+Opt3: It will make sense. [fire dial3 playsound] [play talk4]
+}
+
+talk4
+{
+[wait 2 sec]
+Okay...I can talk
+[wait 2 sec]
+Let's just talk for a bit. [fire 19delay trigger]
+[wait 2 sec`]
+Will you be here?
+[wait 2 sec]
+[play talk5]
+}
+
+talk5
+{
+Opt1: I will be here for as long as you need. [fire dial1 playsound] [play ending]
+}
+
+ending
+{
+[wait 4 sec]
+[clear]
+[fire theend trigger]
+}
+
+[past1]

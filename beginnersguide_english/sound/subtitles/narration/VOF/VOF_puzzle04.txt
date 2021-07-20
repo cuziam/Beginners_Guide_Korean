@@ -1,0 +1,2 @@
+0 5.69 So that seems to be it, right? You walk down a corridor, you solve a puzzle, you get to the end. Simple enough.
+6.28 12.79 Alright, now I'm going to modify the game again so that when you press 'Enter' it'll remove all of the walls from this room.

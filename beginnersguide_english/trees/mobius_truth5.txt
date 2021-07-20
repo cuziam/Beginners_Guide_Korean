@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+Keep going! Keep talking!
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

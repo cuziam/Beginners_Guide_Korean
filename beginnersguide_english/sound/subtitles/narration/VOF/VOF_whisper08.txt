@@ -1,0 +1,5 @@
+0 1.5 Lemme pause here for a second. 
+1.8 5.45 What you just experienced, stepping into the beam and then dying,
+5.57 9.97 is probably what Coda had initially intended when he was developing this level.
+10.59 14.57 But when he first compiles and plays it, something goes wrong, there's a bug somewhere,
+14.98 16.55 and this is what happens instead.

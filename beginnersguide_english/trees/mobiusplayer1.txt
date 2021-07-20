@@ -1,0 +1,33 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: HELP! I'm blind! [wait 6 sec] [play line2]
+	Opt2: I can't see anything! [wait 6 sec] [play line2]
+	Opt3: What's going on?? [wait 6 sec] [play line2]
+}
+
+line2
+{
+	[color ffffff] 
+	Opt1: Please, someone talk to me! [play line3]
+	Opt2: Please, tell me how to solve this. [play line3]
+	Opt3: Please don't let this be forever. [play line3]
+
+}
+
+line3
+{
+	[wait 1 sec]
+}
+
+
+
+[go]
+
+
+
+
+
+

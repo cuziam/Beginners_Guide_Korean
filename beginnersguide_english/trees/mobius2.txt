@@ -1,0 +1,24 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: I don't feel it any more. [play continue]
+	Opt2: I'm out of ideas. [play continue]
+	Opt3: It's draining me. [play continue]
+}
+
+continue
+{
+[fire ending1 trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

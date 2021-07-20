@@ -1,0 +1,5 @@
+0 4.88 And to be fair it's not like this is the first game that's needed some modification to be playable.
+5.37 11.55 Like the housecleaning game, you know that one used to actually loop the cleaning chores and you just cleaned a house forever,
+12.2 15.67  I had to cut it off so that you could exit the house and the game would actually end.
+16.44 20.02 But that game had an idea that it was actually trying to communicate,
+20.91 23.62 what's the deeper idea behind the invisible maze?

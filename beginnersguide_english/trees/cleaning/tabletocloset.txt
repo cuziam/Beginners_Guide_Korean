@@ -1,0 +1,91 @@
+#modern
+
+Go
+{
+	[color ffffff] 
+Opt1: Housecleaning is so difficult! How do you do it? [wait 2 sec] [play response1]
+Opt2: Are all houses this easy to clean? [wait 2 sec] [play response2]
+Opt3: Do these chores ever end? [wait 2 sec] [play response3]
+}
+
+response1
+{
+	[color 00e53b] 
+Darling, let me tell you something.
+	[wait 2 sec]
+Your house is only as difficult to clean as YOU are.
+	[wait 2 sec]
+If you're finding the work hard, maybe you have a bit of housekeeping to do before you come to work.
+	[wait 4 sec]
+Ha! And here I go with another lecture. Of course I would.
+	[wait 3 sec]
+	[fire VO_5delay trigger]
+Don't you worry about all that nonsense, for now just smooth out the rug in the bedroom.
+	[fire closet_continue2 enable]	
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+}
+
+
+response2
+{
+	[color 00e53b] 
+Darling, let me tell you something.
+	[wait 2 sec]
+In your lifetime, you are going to clean a lot of houses.
+	[wait 2 sec]
+And among all of those, a few of them will stick out as truly wonderful, beautiful experiences.
+	[wait 4 sec]
+And none of them will be the ones that were easy.
+	[wait 3 sec]
+	[fire VO_5delay trigger]
+Just something to think about while you smooth out the rug in the bedroom.
+	[fire closet_continue2 enable]
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+}
+
+
+response3
+{
+	[color 00e53b] 
+Darling, let me tell you something.
+	[wait 2 sec]
+Whatever work you do, you have absolutely got to own it.
+	[wait 2 sec]
+Otherwise, it owns you.
+	[wait 2 sec]
+So why don't we be with the task at hand and leave the future chores to future you.
+	[wait 2 sec]
+Present you wants to smooth out the rug in the bedroom, believe it or not.
+	[wait 2 sec]
+	[fire VO_5delay trigger]
+Trust me on this one.
+	[fire closet_continue2 enable]
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

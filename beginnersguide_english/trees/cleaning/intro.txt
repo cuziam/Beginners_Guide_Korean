@@ -1,0 +1,65 @@
+#modern
+
+Go
+{
+	[color 00e53b]
+	Well my goodness! I'm glad as all heck that you showed up!
+		[wait 3 sec]
+	Thought I might be having to clean this entire house all by myself. And right miserable that would have been.
+		[wait 4 sec]
+	Everyone knows lonesome hands make lousy homes!
+		[wait 3 sec]
+	[play response1]
+}
+
+response1
+{
+[color ffffff]
+	Opt1: Don't worry about me, a place this nice I'll be glad to stay here all night. [wait 2 sec] [play cleaner01]
+	Opt2: And lousy homes make... home-loners! [wait 2 sec] [play cleaner02]
+	Opt3: Are we cleaning this whole place? [wait 2 sec] [play cleaner03]
+}
+
+cleaner01
+{
+	[color 00e53b]
+Well now you just might be getting a little ahead of yourself there, no?
+	[wait 3 sec]
+Why don't we start cleaning and THEN you decide whether you could do it all night.
+	[wait 2 sec]
+I'll finish up here, in the mean time could you please clear the table?
+	[wait 1 sec]
+	[fire table_reset trigger]
+}
+
+
+cleaner02
+{
+	[color 00e53b]
+HA!
+	[wait 1 sec]
+Something tells me you're gonna be fun to do this job with.
+	[wait 2 sec]
+Well this place isn't going to clean itself, far as I know. I'll finish up here, in the mean time could you please clear the table?
+	[wait 2 sec]
+	[fire table_reset trigger]
+}
+
+
+cleaner03
+{
+	[color 00e53b]
+That's the story, little one.
+	[wait 2 sec]
+Oh don't you worry now, we'll be through this mess in no time!
+	[wait 2 sec]
+I promise you'll wish there was more.
+	[wait 2 sec]
+Why don't I finish up here, in the mean time could you please clear the table?
+	[wait 2 sec]
+	[fire table_reset trigger]
+}
+
+
+
+[Go]

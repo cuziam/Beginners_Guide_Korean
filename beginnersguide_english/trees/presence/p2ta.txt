@@ -1,0 +1,58 @@
+#modern
+
+start
+{
+	[color f85078] 
+	[wait 2 sec]
+Alright, what's next?
+	[wait 2 sec]
+[play p3n]
+}
+
+p3n
+{
+	[color ffffff]
+	Opt1: Now just close the first door. [play p3fA]
+	Opt2: Now just open the first door. [play p3fB]
+	Opt3: Now just press the switch here. [play p3s]
+}
+
+p3fA
+{
+	[color f85078] 
+	[wait 2 sec]
+It's already closed though.
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3fB
+{
+	[color f85078] 
+	[wait 2 sec]
+I don't think there's a way to open it from here.
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3nb
+{
+	Opt1: So just close the first door. [play p3fA]
+	Opt2: So just open the first door. [play p3fB]
+	Opt3: So just press the switch here. [play p3s]
+}
+
+p3s
+{
+	[wait 1 sec]
+[fire door2open trigger]
+	[wait 2 sec]
+Ha! That was so simple!
+	[wait 2 sec]
+I can't believe I never solved it before this.
+	[wait 1 sec]
+}
+
+
+
+[start]

@@ -1,0 +1,136 @@
+#modern
+
+start
+{
+	[color f85078] 
+Here's the puzzle.
+	[wait 2 sec]
+What do you think?
+	[wait 2 sec]
+[play start2]
+}
+
+start2
+{
+	[color ffffff]
+	Opt1: Hey, I recognize this! [fire pres5a2 enable] [play start3]
+	Opt2: I've solved this puzzle before! [fire pres5b2 enable] [play start3]
+	Opt3: This is easy! [fire pres5c2 enable] [play start3]
+}
+
+start3
+{
+	[color f85078]
+	[wait 2 sec] 
+Oh wonderful!
+	[wait 2 sec]
+Can you tell me how to do it?
+	[wait 2 sec]
+[play p1i]
+}
+
+p1i
+{
+	[color ffffff]
+	Opt1: First you have to close the door. [play p1fA]
+	Opt2: First you have to open the door. [play p1s]
+	Opt3: First you press the switch on the inside. [play p1fB]
+}
+
+p1fA
+{
+	[color f85078] 
+	[wait 2 sec]
+But the door is already closed!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fB
+{
+	[color f85078] 
+	[wait 2 sec]
+But we're not on the inside!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1n
+{
+	Opt1: You have to close the door. [play p1fC]
+	Opt2: You have to open the door. [play p1s]
+	Opt3: You have to press the switch on the inside. [play p1fD]
+}
+
+p1fC
+{
+	[color f85078] 
+	[wait 2 sec]
+Um...the door is still closed.
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fD
+{
+	[color f85078] 
+	[wait 2 sec]
+We're...still on the outside.
+	[wait 3 sec]
+[play p1n]
+}
+
+
+p1s
+{
+[fire door1open trigger]
+	[wait 2 sec]
+Okay, now what?
+	[wait 3 sec]
+[play p2n]
+}
+
+p2n
+{
+	Opt1: Now you have to close the first door. [play p2s]
+	Opt2: Now you have to open the first door. [play p2fA]
+	Opt3: Now you press the switch on the inside. [play p2fB]
+}
+
+p2fA
+{
+	[wait 2 sec]
+But it's already open!
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2fB
+{
+	[wait 2 sec]
+I don't see any switch here.
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2nb
+{
+	Opt1: In that case, close the first door. [play p2s]
+	Opt2: In that case, open the first door. [play p2fA]
+	Opt3: In that case, press the switch on the inside. [play p2fB]
+}
+
+p2s
+{
+	[wait 0.5 sec]
+[fire door1close trigger]
+	[wait 1 sec]
+}
+
+
+
+
+
+
+
+[start]

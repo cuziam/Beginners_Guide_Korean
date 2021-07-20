@@ -1,0 +1,48 @@
+Text1
+{
+	[color f15822]
+	Are you there?
+		[Wait 1 sec]
+	Please, say something
+		[Wait 1 sec]
+	It can be anything, I just need you to say something!
+		[Wait 1 sec]
+	Talk to me! Please!
+		[Wait 1 sec]
+	Why are you having so much difficulty talking?
+		[Wait 1 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[fire end trigger]
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!
+		[Wait 0.5 sec]
+	Speak!	
+		[Wait 0.5 sec]
+	Speak!	
+		[Wait 0.5 sec]
+[clear]
+}
+
+
+
+[Text1]

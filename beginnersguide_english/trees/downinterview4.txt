@@ -1,0 +1,120 @@
+Text1
+{
+	[color f15822]
+	[clear]
+	[fire speak1 trigger] Hello. How did you get here? Was there a puzzle you had to pass through?
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: Yes, do you want to know how to solve it? [Play 1a]
+	[color ffcc11] Opt2: No, I've been right here this entire time. [Play 2a]
+}
+
+1a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] No no! We actually find the black space between the doors to be far more interesting. Have you seen it yet?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse] 
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: Why would I care about the space between the doors? [Play final1]
+	[color ffcc11] Opt2: Actually now that you mention it I remember feeling strange as I passed through it... [Play final2]
+	[color ffcc22] Opt3: I don't recall a space between the doors... [Play final3]
+}
+
+2a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] I suggest you go and see the puzzle some time. It's not meant to be solved, but you can sit in the black space in the middle.
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: What happens if I solve it? [Play final4]
+	[color ffcc11] Opt2: Why would I sit in the black space? [Play final5]
+	[color ffcc22] Opt3: Who are you? [Play final6]
+}
+
+final1
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] There is a reason, but it may take time before you understand. Which is fine.
+		[Wait 3 sec]
+	You'll see it again soon.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final2
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Don't think too hard about it.
+		[Wait 3 sec]
+	You'll see it again soon.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final3
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Don't worry, I'm sure you will visit it again soon.
+		[Wait 3 sec]
+	Be sure to pay close attention.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final4
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Not sure. But if I have any suspicion, what you find won't be worth what it takes to get there.
+		[Wait 3 sec]
+	You'll have another chance to solve it soon.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final5
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Oh it's plenty peaceful. It may not seem that way at first, but you'll come to think so in time.
+		[Wait 3 sec]
+	Eventually.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final6
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Just go hang out there in that blackness for a bit. You may not like it at first, but it'll grow on you.
+		[Wait 3 sec]
+	Eventually.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+
+[Text1]

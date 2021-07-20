@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+The only way to stop it is to speak something that is honest.
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

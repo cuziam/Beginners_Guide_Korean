@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+Yes! That's it! That's the truth!
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+#modern
+
+go
+{
+	Make sure you are running the game at 1280x800
+	Opt1: Please! Where is the machine! [play game6a]
+	Opt2: Please! Where is the machine! [play game6a]
+	Opt3: Please! Where is the machine! [play game6a]
+}
+
+game6a
+{
+	i ate it
+}
+
+
+
+[go]

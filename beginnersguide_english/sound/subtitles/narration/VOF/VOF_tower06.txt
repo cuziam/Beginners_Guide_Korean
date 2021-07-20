@@ -1,0 +1,7 @@
+0 7.47 The switch to open this door is actually on the other side of the door, meaning that it's literally impossible to solve from this side.
+7.8 12.54 So even if you somehow brute forced your way through the first two challenges and got to this point,
+12.85 15.07 there's actually just no way to progress!
+16.01 19.95 And it's scary for me, the idea of Coda cutting himself off entirely,
+20.15 25.44 just saying “that's it, that's the end of the conversation,” not giving me any way to fix the problem.
+27.22 31.8 I feel like a failure I guess, when I can't...fix the problem.
+33.16 35.9 But I can open this door for you, so let me do that.

@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	While you're in there, why don't you straighten out the rug a bit?
+		[wait 1 sec]
+	[fire closet_continue1 enable]
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+		[wait 1 sec]
+	All the little details matter!
+}
+
+
+
+[Go]

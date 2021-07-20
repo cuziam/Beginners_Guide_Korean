@@ -1,0 +1,7 @@
+LightMappedGeneric
+{
+$baseTexture "author/signage/disabledDecal"
+$decal 1
+$decalscale 0.04
+$translucent 1
+}

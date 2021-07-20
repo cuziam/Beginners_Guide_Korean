@@ -1,0 +1,2 @@
+0 6.05 Here Coda begins using a kind of dialogue system that he fashioned out of the engine's chat capabilities.
+6.29 8.52 Use the buttons on your gamepad to respond.

@@ -59,7 +59,7 @@ for (chapterNum = 0; chapterNum < chapter.length; chapterNum++) {
       let divContentsEN = contentsEN.split("\n");
 
       for (let i in divContentsKR) {
-        htmlContents += `${divContentsEN[i]}<br>${divContentsKR[i]}<br>`;
+        htmlContents += `${divContentsEN[i]}<br>${divContentsKR[i]}<br>`; //영어자막과 한글자막이 번갈아서 나오도록 함.
       }
       if (chapterNum == 0 && fileNum == 1) break;
     }

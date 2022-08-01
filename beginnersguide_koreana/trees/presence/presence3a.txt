@@ -17,7 +17,7 @@ dialogue1
 	[color ffffff]
 	Opt1: 뭐라고?? [fire pres5a enable] [fire block5fadeout trigger] [play transition1]
 	Opt2: 거기로 데려다 줘! [fire pres5b enable] [fire block5fadeout trigger] [play transition2]
-	Opt3: 난 그 기계를 봐야만 해. 왜 멈춰버렸는지 알아야 한다고. [fire pres5c enable] [fire block5fadeout trigger] [play transition1]
+	Opt3: 그 기계를 봐야만 해. 왜 멈춰버렸는지 알아야 해! [fire pres5c enable] [fire block5fadeout trigger] [play transition1]
 }
 
 transition1

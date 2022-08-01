@@ -9,9 +9,9 @@
 
 Response1
 {
-	[color ffcc00] Opt1: 맞아요. 거기에는 순백으로 가득찬 세상이 있었어요. [Play 1a]
-	[color ffcc11] Opt2: 맞아요. 거기에는 제가 수 시간을 갇혀있던 커다란 감옥이 있었어요. [Play 1a]
-	[color ffcc22] Opt3: 맞아요. 거기에는 형형색색의 떠다니는 블록들이 있었어요. [Play 1a]
+	[color ffcc00] Opt1: 맞아요. 그곳에는 새하얀 세상이 있었어요. [Play 1a]
+	[color ffcc11] Opt2: 맞아요. 그곳에는 제가 수 시간을 갇혀있던 커다란 감옥이 있었어요. [Play 1a]
+	[color ffcc22] Opt3: 맞아요. 그곳에는 형형색색의 떠다니는 블록들이 있었어요. [Play 1a]
 }
 
 1a
@@ -26,7 +26,7 @@ Response1
 
 1aResponse
 {
-	[color ffcc00] Opt1: 네 맞아요! 여기에 오기전에 정말 마지막으로 했던 일이 그거예요. [Play 2a]
+	[color ffcc00] Opt1: 네 맞아요! 여기에 오기전에 말 그대로 마지막으로 했던 일이 그거예요. [Play 2a]
 	[color ffcc11] Opt2: 아니요. 그런 퍼즐을 통과했는지 기억이 안나는데요. [Play 2b]
 	[color ffcc22] Opt3: 당신에게 말하지 않는 것이 좋겠네요. 뭐가 됐든, 우린 방금 만났는데요. [Play 2c]
 }
@@ -45,7 +45,7 @@ Response1
 {
 	[color ffcc00] Opt1: 제가... 제가 그걸 어떻게 풀었는지 기억이 안나네요. 기억해보려고 하는데도 기억이 안나네요. [Play downfinala]
 	[color ffcc11] Opt2: 전 그걸 풀지 않았어요. 누군가가 들여보내줬죠. [Play downfinalb]
-	[color ffcc22] Opt3: 절 믿으세요. 당신도 거기에 가고 싶지 않을꺼예요. [Play downfinalc]
+	[color ffcc22] Opt3: 절 믿으세요. 당신도 거기에 가고 싶지 않을거예요. [Play downfinalc]
 }
 
 2b
@@ -69,7 +69,7 @@ Response1
 2c
 {
 		[wait 2 sec]
-	[fire speak1 trigger] 뭐라고요?? 하지만 당신은... 당신은 이해못해요. 저희는 여기에 갇혀있어요. 그 퍼즐만이 유일한 탈출방법이고 저희는 그걸 통과해야한다고요!
+	[fire speak1 trigger] 뭐라고요?? 하지만 당신은... 당신은 이해못해요. 저희는 여기에 갇혀있어요. 그 퍼즐만이 유일한 탈출방법이고 저희는 그걸 통과해야 한다고요!
 		[Wait 2 sec]
 	[fire VO_13 start]
 		[wait 2 sec]
@@ -109,7 +109,7 @@ downfinalb
 		[wait 2 sec]
 	[fire speak1 trigger] 풀지 않았다고요?
 		[Wait 2 sec]
-	그럼 아무것도 배운 게 없겠네요.
+	그럼 배운 게 아무것도 없겠네요.
 		[Wait 2 sec]
 	당신은 저희가 이 감옥을 탈출할 수 있도록 돕지 못하는군요.
 		[Wait 2 sec]

@@ -5,7 +5,7 @@ game1
 	[color f85078] 
 오 이런!
 	[wait 2 sec]
-무슨 일이야? 무슨 변화라도 있었어?
+무슨 일이야? 뭔가 바뀐 거라도 있었어?
 	[wait 2 sec]
 [play dialogue1]
 }

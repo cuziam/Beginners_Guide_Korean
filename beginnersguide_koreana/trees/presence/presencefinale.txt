@@ -23,7 +23,7 @@ game2a
 	[wait 2 sec]
 넌 네 작품이 재미있고 쉽다고 말해야 해.
 	[wait 2 sec]
-그리고 게임 개발이 간단하고도 기쁨이 넘치는 일이고, 네가 100% 사랑하는 일이라고 말해야해.
+그리고 게임 개발이 간단하고 기쁨이 넘치는 일이고, 네가 100% 사랑하는 일이라고 말해야해.
 	[wait 4 sec]
 [play coda2]
 }
@@ -49,7 +49,7 @@ coda3
 {
 	Opt1: ...하지만 그건 사실이 아니야. [fire pres12a enable] [play game4]
 	Opt2: 왜 벽들이 그냥 부숴지지? [fire pres12b enable] [play game4]
-	Opt3: 이렇게 말할 때 내가 왜 역겹지?  [fire pres12c enable] [play game4]
+	Opt3: 이렇게 말하면 왜 역겹지?  [fire pres12c enable] [play game4]
 }
 
 game4
@@ -84,8 +84,8 @@ game5
 coda5
 {
 	Opt1: 무언가를 만들어낼 때마다, 나 스스로에 대해 기분이 좋아져. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
-	Opt2: 무언가 만드는 일을 절대로 멈추지마. 그러면 절대 기분나빠질 일이 없어. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
-	Opt3: 간단한 해답이네. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt2: 무언가 만드는 일을 절대로 멈추지마. 그러면 절대 기분 나빠질 일이 없어. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt3: 간단한 해결법이네. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
 }
 
 game6
@@ -142,7 +142,7 @@ coda7
 {
 	Opt1: 어떠한 부끄러움도, 무서움도, 죄의식도 없어. [fire bustawalls6 trigger] [play game8]
 	Opt2: 난 내 작품으로 구원 받을거야. [fire bustawalls6 trigger] [play game8]
-	Opt3: 의심할 여지 없이 난 이 사실을 믿어. 난 확신으로 가득찬 그릇과 같다는 걸. [fire bustawalls6 trigger] [play game8]
+	Opt3: 의심할 여지 없이 난 믿어. 난 확신으로 가득찬 그릇과 같아. [fire bustawalls6 trigger] [play game8]
 }
 
 game8

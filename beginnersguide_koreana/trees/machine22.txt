@@ -15,7 +15,7 @@ talk2
 talk3
 {
 	Opt1: 기계는 우리에게 사과하지 않을 것입니다. [wait 2 sec] [play talk4a]
-	Opt2: 기계가 우리에게 고의로 피해를 주었다는 사실을 인정하기를 거부했습니다. [wait 2 sec] [play talk4a]
+	Opt2: 기계는 우리에게 고의로 피해를 주었다는 사실을 인정하지 않았습니다. [wait 2 sec] [play talk4a]
 }
 
 talk4a

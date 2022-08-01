@@ -44,7 +44,7 @@ response3
 		[wait 2 sec]
 	...
 		[wait 3 sec]
-	아니다. 안할게. 멍청한 짓이었네.
+	아니다. 안할게. 멍청한 짓이었어.
 		[wait 1 sec]
 	신경쓰지마.
 		[wait 2 sec]

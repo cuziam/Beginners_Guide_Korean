@@ -7,7 +7,7 @@ Go
 	[wait 2 sec]
 질문 하나할게.
 	[wait 3 sec]
-즐거웠니?
+즐거웠어?
 	[wait 0.5 sec]
 [fire cutoff trigger]
 }

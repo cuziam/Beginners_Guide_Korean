@@ -50,7 +50,7 @@ future3
 {
 Opt1: 사실, 감옥 안에서 어떤 기분이었는지 벌써 기억이 안나... [fire dial1 playsound] [play past4a]
 Opt2: 이상하긴한데, 어떤 면에선 감옥 안이 그리운 것 같기도 해. [fire dial2 playsound] [play past4b]
-Opt3: 완전히 고요하면서도 격렬하게 뛰어다니는 듯한 느낌을 받았어.[fire dial3 playsound] [play past4c]
+Opt3: 완전히 정지한듯 하면서도 자유로운 느낌이 들었어.[fire dial3 playsound] [play past4c]
 }
 
 past4a
@@ -95,7 +95,7 @@ past5b
 future6
 {
 Opt1: 하하. 장담하는데 네가 생각하는 것만큼 나쁜 일은 아니야. [fire dial1 playsound]  [play transition]
-Opt2: 너는 그 일을 절대 잊지 않아. 다만 감정이입을 멈췄을 뿐이지.[fire dial2 playsound]  [play transition]
+Opt2: 너는 그 일을 절대 잊지 않아. 다만 감정이입을 멈췄을 뿐이야.[fire dial2 playsound]  [play transition]
 Opt3: 그 일에 흠뻑 젖어들고나면, 모든 것들이 무한해 보일거야. [fire dial3 playsound]  [play transition]
 }
 
@@ -111,7 +111,7 @@ past4b
 
 future7
 {
-Opt1: 맞아. 어쩌면 더 이상 가질 수 없게 된 것들을 좋아하게 됐어. [fire dial1 playsound] [play past7a]
+Opt1: 맞아. 어쩌면 더 이상 가질 수 없게 된 것들을 좋아하게 된 것 같아. [fire dial1 playsound] [play past7a]
 Opt2: 편안했어. 내 한계를 알게됐고 내 분수도 알게 되었어. [fire dial2 playsound] [play past7b]
 Opt3: 하지만 탈출한다고 생각하면 흥분되지 않아? 자유가 약속되어 있잖아? [fire dial3 playsound] [play past7c]
 }
@@ -123,7 +123,7 @@ past7a
 [wait 2 sec]
 하지만 내가 영원히 그런 식으로 살게 된다고?
 [wait 2 sec]
-정말 미래를 바꾸고 싶은걸.
+정말 미래를 바꾸고 싶어...
 [wait 2 sec]
 [play future8]
 }
@@ -149,14 +149,14 @@ past7b
 future9
 {
 Opt1: 그런 식으로 살 필요는 없지! 다만 인내심을 좀 가질 필요는 있어. [fire dial1 playsound]  [play transition]
-Opt2: 한계가 있다는 사실이 네가 지금 생각하고 있는 것보다 훨씬 중요한거야. [fire dial2 playsound]  [play transition]
-Opt3: 그곳에 더 오랫동안 있다보면 내가 말하려는게 뭔지 이해하게 될거야. [fire dial3 playsound]  [play transition]
+Opt2: 한계를 갖고 있다는 건 네 생각보다 훨씬 중요한거야. [fire dial2 playsound]  [play transition]
+Opt3: 그곳에 더 오랫동안 있다보면 내가 말하려는 게 뭔지 이해하게 될거야. [fire dial3 playsound]  [play transition]
 }
 
 past7c
 {
 [wait 2 sec]
-흥분된다고? 나한테는 오직 탈출하는게 문제일 뿐이야!
+흥분된다고? 나한테는 오직 탈출하는 것만이 문제야!
 [wait 3 sec]
 오직 탈출하는거야 말로 계속해서 앞으로 나아갈 수 있는 유일한 이유라고!
 [wait 2 sec]
@@ -243,7 +243,7 @@ past101
 [wait 2 sec]
 그러면 탈출하는 방법 좀 나한테 알려줄래?
 [wait 2 sec]
-어쩌면 난 너를 찾으러 갈 수도 있다고!
+어쩌면 난 너를 찾으러 갈 수도 있어!
 [wait 2 sec]
 나는 뭘해야 해?
 [wait 2 sec]
@@ -307,7 +307,7 @@ future102
 {
 Opt1: 나한테 말한거라곤 진심을 다하라는 말뿐이었어.[fire dial1 playsound] [play sincere2]
 Opt2: 그 사람들은 내가 감옥에 갇혀있을 때 어떤 기분이었냐고 물어봤어. [fire dial2 playsound] [play feel2]
-Opt3: 그냥 잠깐동안 나한테 말을 걸었어. [fire dial3 playsound] [play talk2]
+Opt3: 그냥 잠깐동안 나한테 말을 걸어줬어. [fire dial3 playsound] [play talk2]
 }
 
 sincere2

@@ -5,7 +5,7 @@ go
 	[color ffffff] 
 	Opt1: 더 이상 아무 느낌도 들지않아. [play continue]
 	Opt2: 난 아이디어가 다 떨어졌어. [play continue]
-	Opt3: 이런건 날 지치게 해. [play continue]
+	Opt3: 이런건 내 기운을 다 빨아먹어. [play continue]
 }
 
 continue

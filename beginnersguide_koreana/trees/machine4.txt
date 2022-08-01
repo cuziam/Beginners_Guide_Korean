@@ -2,18 +2,18 @@
 
 talk1
 {
-	[color ffffff] Opt1: 코다! 너의 작품은 여기서 반드시 죽는다! [wait 3 sec] [play talk2a]
-	[color ffffff] Opt2: 코다! 너는 사람들에게 영원히 알려지고 말거다! [wait 3 sec] [play talk2b]
+	[color ffffff] Opt1: 코다! 네 작품이 여기서 죽음을 맞이하도록 만들어주겠어! [wait 3 sec] [play talk2a]
+	[color ffffff] Opt2: 코다! 네가 영원히 유명해지도록 만들어주겠어! [wait 3 sec] [play talk2b]
 }
 
 talk2a
 {
-	Opt1: 그게 네가 두려워하는거 아니야? 네 소중한 작품들을 잃은채로 사는거? 네 자신과 타협하며 사는거?[wait 3 sec] [play talk3]
+	Opt1: 그게 네가 두려워하는거 아니야? 네 소중한 작품들을 잃어버린 채로 살아야 하는 거? 네 자신과 타협하며 살아야 하는 거?[wait 3 sec] [play talk3]
 }
 
 talk2b
 {
-	Opt1: 그게 네가 두려워하는거 아니야? 매일 다른 사람들의 시선에 둘러싸인 채 영원히 살아가는 거? 발가벗겨진 채로 살아가는거?  [wait 3 sec] [play talk3]
+	Opt1: 그게 네가 두려워하는거 아니야? 매일, 영원히 다른 사람들의 시선에 둘러싸인 채 살아가는 거? 발가벗겨진 채로 살아가는거?  [wait 3 sec] [play talk3]
 }
 
 
